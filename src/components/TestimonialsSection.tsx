@@ -18,13 +18,6 @@ export const TestimonialsSection = () => {
       image: teacherRodrigo,
       text: "A linguagem dos documentos é ótima e pronta pra entregar na coordenação. Meus colegas sempre perguntam como faço tudo tão rápido!",
       rating: 5
-    },
-    {
-      name: "Prof. Ana Maria",
-      role: "Ensino Fundamental I",
-      image: teacherCarla, // Using same image for now
-      text: "Descobri a Aulix e virou minha assistente pessoal. Os relatórios ficam perfeitos e eu tenho mais tempo para os alunos.",
-      rating: 5
     }
   ];
 
