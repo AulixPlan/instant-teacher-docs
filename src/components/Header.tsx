@@ -11,7 +11,7 @@ export const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/ffc49d2b-f0f0-4987-bd9d-b2eb5806867c.png" 
+            src="/lovable-uploads/logo_aulix_white.png" 
             alt="Aulix"
             className="h-8 w-auto"
           />
