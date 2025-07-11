@@ -6,26 +6,26 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 26% 9%; /* #0A192F - Azul Marinho Escuro */
+    --foreground: 0 0% 100%; /* Branco para texto */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 210 22% 13%; /* #212121 - Grafite */
+    --card-foreground: 0 0% 100%;
 
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Aulix Brand Colors - Blue primary for trust & technology */
-    --primary: 220 91% 57%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 91% 67%;
+    /* Aulix New Brand Colors - Dark sophisticated theme */
+    --primary: 197 78% 69%; /* #6DD5ED - Azul Celeste */
+    --primary-foreground: 210 22% 13%; /* #212121 - Grafite escuro */
+    --primary-glow: 197 78% 79%;
 
-    /* Success Green for highlights and CTAs */
-    --secondary: 142 76% 36%;
+    /* Vibrant Green for CTAs and highlights */
+    --secondary: 88 47% 55%; /* #8BC34A - Verde Limão */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 16% 88%; /* #E0E0E0 - Cinza Claro */
+    --muted-foreground: 210 16% 78%;
 
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
@@ -38,9 +38,9 @@
     --ring: 220 91% 57%;
 
     /* Aulix Custom Design Tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(220 91% 57%), hsl(220 91% 67%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
-    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 46%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 26% 9%), hsl(210 22% 13%));
+    --gradient-card: linear-gradient(145deg, hsl(210 22% 13%), hsl(210 20% 16%));
+    --gradient-success: linear-gradient(135deg, hsl(88 47% 55%), hsl(88 47% 65%));
     
     --shadow-soft: 0 4px 20px -5px hsl(220 91% 57% / 0.15);
     --shadow-card: 0 10px 25px -5px hsl(0 0% 0% / 0.1);

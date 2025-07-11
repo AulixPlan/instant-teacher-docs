@@ -6,7 +6,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 bg-white/10 backdrop-blur-sm border-b border-white/20">
+    <header className="absolute top-0 left-0 right-0 z-50 bg-card/20 backdrop-blur-sm border-b border-primary/20">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -20,8 +20,7 @@ export const Header = () => {
         {/* CTA Button */}
         <Button 
           onClick={handleWhatsAppClick}
-          variant="secondary"
-          className="bg-white/20 text-white border border-white/30 hover:bg-white/30 backdrop-blur-sm"
+          className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-medium backdrop-blur-sm"
         >
           Falar no WhatsApp
         </Button>
