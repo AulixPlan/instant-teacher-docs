@@ -4,7 +4,6 @@ import { PricingSection } from "@/components/PricingSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { CTASection } from "@/components/CTASection";
-import { WhatsAppWidget } from "@/components/WhatsAppWidget";
 
 const Index = () => {
   return (
@@ -15,7 +14,6 @@ const Index = () => {
       <TestimonialsSection />
       <PricingSection />
       <CTASection />
-      <WhatsAppWidget />
     </div>
   );
 };
