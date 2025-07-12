@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { MessageCircle, Shield, Users, Clock } from "lucide-react";
+import { MessageCircle, Shield, Users, Clock, Instagram, Facebook } from "lucide-react";
 
 export const CTASection = () => {
   const handleWhatsAppClick = () => {
@@ -8,9 +8,9 @@ export const CTASection = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-hero text-white relative overflow-hidden">
+    <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary-glow to-primary opacity-90"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 opacity-95"></div>
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute top-20 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-float"></div>
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-white/5 rounded-full blur-2xl animate-float" style={{animationDelay: '1s'}}></div>
@@ -81,17 +81,19 @@ export const CTASection = () => {
                 href="https://www.instagram.com/aulixplanejamento" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-white/80 hover:text-white transition-colors font-medium"
+                className="text-white/80 hover:text-white transition-colors font-medium flex items-center gap-2"
               >
-                📱 Instagram
+                <Instagram className="w-5 h-5" />
+                Instagram
               </a>
               <a 
                 href="https://facebook.com/aulixplanejamento" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-white/80 hover:text-white transition-colors font-medium"
+                className="text-white/80 hover:text-white transition-colors font-medium flex items-center gap-2"
               >
-                📘 Facebook
+                <Facebook className="w-5 h-5" />
+                Facebook
               </a>
             </div>
           </div>
@@ -102,6 +104,13 @@ export const CTASection = () => {
             <span className="text-sm font-medium">
               Garantia de satisfação • Risco zero • Suporte completo
             </span>
+          </div>
+
+          {/* Copyright */}
+          <div className="mt-16 pt-8 border-t border-white/20 text-center">
+            <p className="text-white/60 text-sm">
+              © 2025 Aulix. Todos os direitos reservados. | Desenvolvido com ❤️ para educadores brasileiros.
+            </p>
           </div>
         </div>
       </div>
