@@ -108,6 +108,13 @@ export const CTASection = () => {
 
           {/* Copyright */}
           <div className="mt-16 pt-8 border-t border-white/20 text-center">
+            <div className="flex justify-center mb-4">
+              <img 
+                src="/lovable-uploads/logo_aulix_white.png" 
+                alt="Aulix"
+                className="h-8 w-auto opacity-80"
+              />
+            </div>
             <p className="text-white/60 text-sm">
               © 2025 Aulix. Todos os direitos reservados. | Desenvolvido com ❤️ para educadores brasileiros.
             </p>

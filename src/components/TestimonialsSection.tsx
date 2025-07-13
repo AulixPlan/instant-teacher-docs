@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
 import teacherCarla from "@/assets/teacher-carla.jpg";
 import teacherRodrigo from "@/assets/teacher-rodrigo.jpg";
+import teacherAna from "@/assets/teacher-carla.jpg"; // Usando a mesma imagem como placeholder
 
 export const TestimonialsSection = () => {
   const testimonials = [
@@ -17,6 +18,13 @@ export const TestimonialsSection = () => {
       role: "Ensino Médio",
       image: teacherRodrigo,
       text: "A linguagem dos documentos é ótima e pronta pra entregar na coordenação. Meus colegas sempre perguntam como faço tudo tão rápido!",
+      rating: 5
+    },
+    {
+      name: "Prof. Ana",
+      role: "Ensino Fundamental I",
+      image: teacherAna,
+      text: "Desde que comecei a usar a Aulix, minha vida mudou! Consigo fazer planejamentos semanais em minutos e ainda sobra tempo para me dedicar aos meus alunos.",
       rating: 5
     }
   ];
