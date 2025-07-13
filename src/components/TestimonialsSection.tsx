@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
 import teacherCarla from "@/assets/teacher-carla.jpg";
 import teacherRodrigo from "@/assets/teacher-rodrigo.jpg";
-import teacherAna from "@/assets/teacher-carla.jpg"; // Usando a mesma imagem como placeholder
+import teacherAna from "@/assets/teacher-ana.jpg";
 
 export const TestimonialsSection = () => {
   const testimonials = [
@@ -39,7 +39,7 @@ export const TestimonialsSection = () => {
             <span className="text-primary">já usam a Aulix</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Mais de 2.000 educadores já economizam horas toda semana com a Aulix
+            Centenas educadores já economizam horas toda semana com a Aulix
           </p>
         </div>
 
@@ -90,15 +90,15 @@ export const TestimonialsSection = () => {
         <div className="text-center mt-12 animate-fade-in">
           <div className="inline-flex items-center gap-4 bg-background rounded-lg px-6 py-4 shadow-soft">
             <div className="flex -space-x-2">
-              <img src={teacherCarla} alt="Professor" className="w-10 h-10 rounded-full border-2 border-background object-cover" />
+              <img src={teacherCarla} alt="Professora" className="w-10 h-10 rounded-full border-2 border-background object-cover" />
               <img src={teacherRodrigo} alt="Professor" className="w-10 h-10 rounded-full border-2 border-background object-cover" />
-              <img src={teacherCarla} alt="Professor" className="w-10 h-10 rounded-full border-2 border-background object-cover" />
+              <img src={teacherAna} alt="Professora" className="w-10 h-10 rounded-full border-2 border-background object-cover" />
               <div className="w-10 h-10 rounded-full border-2 border-background bg-primary text-white text-sm font-bold flex items-center justify-center">
-                +2K
+                +100
               </div>
             </div>
             <div className="text-left">
-              <div className="font-semibold text-foreground">Mais de 2.000 professores</div>
+              <div className="font-semibold text-foreground">Centenas de professores</div>
               <div className="text-sm text-muted-foreground">já confiam na Aulix</div>
             </div>
           </div>
