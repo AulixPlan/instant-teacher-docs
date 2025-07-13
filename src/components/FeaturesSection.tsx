@@ -10,7 +10,13 @@ import {
   Stethoscope,
   MessageSquare,
   Users,
-  HelpCircle
+  HelpCircle,
+  Clock,
+  Heart,
+  Smartphone,
+  FileCheck,
+  GraduationCap,
+  Mail
 } from "lucide-react";
 import beforeAfter from "@/assets/before-after.jpg";
 
@@ -151,10 +157,10 @@ export const FeaturesSection = () => {
         </div>
 
         {/* Benefits */}
-        <div className="mt-20 grid md:grid-cols-2 lg:grid-cols-5 gap-8 animate-fade-in">
+        <div className="mt-20 grid md:grid-cols-2 lg:grid-cols-6 gap-8 animate-fade-in">
           <div className="text-center">
             <div className="w-16 h-16 mx-auto bg-primary/10 rounded-full flex items-center justify-center mb-4">
-              <span className="text-2xl">⏰</span>
+              <Clock className="w-8 h-8 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Ganha Tempo</h3>
             <p className="text-sm text-muted-foreground">Economize horas toda semana</p>
@@ -162,7 +168,7 @@ export const FeaturesSection = () => {
           
           <div className="text-center">
             <div className="w-16 h-16 mx-auto bg-secondary/10 rounded-full flex items-center justify-center mb-4">
-              <span className="text-2xl">😌</span>
+              <Heart className="w-8 h-8 text-secondary" />
             </div>
             <h3 className="font-semibold mb-2">Evita Sobrecarga</h3>
             <p className="text-sm text-muted-foreground">Menos stress com burocracia</p>
@@ -170,7 +176,7 @@ export const FeaturesSection = () => {
           
           <div className="text-center">
             <div className="w-16 h-16 mx-auto bg-primary/10 rounded-full flex items-center justify-center mb-4">
-              <span className="text-2xl">📱</span>
+              <Smartphone className="w-8 h-8 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Direto no WhatsApp</h3>
             <p className="text-sm text-muted-foreground">Nada de app novo para aprender</p>
@@ -178,7 +184,7 @@ export const FeaturesSection = () => {
           
           <div className="text-center">
             <div className="w-16 h-16 mx-auto bg-secondary/10 rounded-full flex items-center justify-center mb-4">
-              <span className="text-2xl">📋</span>
+              <FileCheck className="w-8 h-8 text-secondary" />
             </div>
             <h3 className="font-semibold mb-2">Melhora Organização</h3>
             <p className="text-sm text-muted-foreground">Documentos sempre estruturados</p>
@@ -186,10 +192,18 @@ export const FeaturesSection = () => {
           
           <div className="text-center">
             <div className="w-16 h-16 mx-auto bg-primary/10 rounded-full flex items-center justify-center mb-4">
-              <span className="text-2xl">🎯</span>
+              <GraduationCap className="w-8 h-8 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Foco nos Alunos</h3>
             <p className="text-sm text-muted-foreground">Mais tempo para ensinar</p>
+          </div>
+          
+          <div className="text-center">
+            <div className="w-16 h-16 mx-auto bg-secondary/10 rounded-full flex items-center justify-center mb-4">
+              <Mail className="w-8 h-8 text-secondary" />
+            </div>
+            <h3 className="font-semibold mb-2">Múltiplos Formatos</h3>
+            <p className="text-sm text-muted-foreground">WhatsApp, email ou Google Docs</p>
           </div>
         </div>
       </div>
