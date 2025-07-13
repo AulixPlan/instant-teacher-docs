@@ -39,7 +39,7 @@ export const TestimonialsSection = () => {
             <span className="text-primary">já usam a Aulix</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Centenas educadores já economizam horas toda semana com a Aulix
+            Centenas de educadores já economizam horas toda semana com a Aulix
           </p>
         </div>
 
