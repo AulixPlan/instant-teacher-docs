@@ -16,27 +16,27 @@ export const FAQSection = () => {
   const faqs = [
     {
       question: "Como funciona a Aulix? É realmente pelo WhatsApp?",
-      answer: "Sim! A Aulix funciona 100% pelo WhatsApp. Você adiciona nosso número, envia suas informações (turma, atividade, objetivos) e em poucos minutos recebe seu documento pronto. Não precisa baixar app nem aprender nada novo - é tudo no WhatsApp que você já usa todos os dias."
+      answer: "Sim! A Aulix funciona 100% pelo WhatsApp. É só mandar mensagem e começar a conversar, A Aulix vai pedir algumas informações (turma, atividade, objetivos) e em poucos minutos recebe seu documento pronto. Não precisa baixar app nem aprender nada novo - é tudo no WhatsApp que você já usa todos os dias. Se quiser a Aulix ainda envia um link para o documento no Google docs ou direto para o seu email!"
     },
     {
       question: "Quanto tempo leva para receber meus documentos?",
-      answer: "Em média, seus documentos ficam prontos entre 2 a 5 minutos! Relatórios individuais podem levar até 3 minutos, enquanto planejamentos semanais ficam prontos em até 5 minutos. Muito mais rápido que fazer manualmente, não é?"
+      answer: "Seus documentos ficam prontos em minutos! Relatórios individuais podem levar até 3 minutos, enquanto planejamentos semanais ficam prontos em até 5 minutos. Muito mais rápido que fazer manualmente, não é?"
     },
     {
       question: "Os documentos seguem a BNCC?",
       answer: "Absolutamente! Todos os documentos são gerados seguindo rigorosamente a Base Nacional Comum Curricular (BNCC). A Aulix conhece todas as competências e habilidades por faixa etária e componente curricular, garantindo que seus planejamentos estejam sempre alinhados."
     },
     {
-      question: "Posso usar na Educação Infantil e no Ensino Fundamental?",
+      question: "Posso usar na Educação Infantil, no Ensino Fundamental e no Ensino Médio?",
       answer: "Sim! A Aulix atende desde a Educação Infantil até o Ensino Médio. Temos templates específicos para cada modalidade: berçário, maternal, pré-escola, fundamental I e II, e ensino médio. Cada documento é adaptado para a faixa etária correspondente."
     },
     {
       question: "Como funciona o teste grátis de 24 horas?",
-      answer: "É simples: você se cadastra pelo WhatsApp e tem acesso completo por 24 horas. Pode gerar quantos documentos quiser, testar todos os tipos (relatórios, planejamentos, avaliações). Não pedimos cartão de crédito e você pode cancelar a qualquer momento."
+      answer: "É simples: basta enviar sua primeira mensagem pelo WhatsApp e seu acesso completo será liberado por 24 horas. Nesse período você pode gerar os documentos que quiser, testar todos os tipos (relatórios, planejamentos, avaliações). Não pedimos cartão de crédito."
     },
     {
-      question: "E se eu não gostar? Posso cancelar?",
-      answer: "Claro! Você pode cancelar a qualquer momento, sem burocracia. Basta enviar uma mensagem no WhatsApp pedindo o cancelamento. Não fazemos cobrança automática sem avisar e respeitamos totalmente sua decisão."
+      question: "E depois de assinar, se eu não quiser mais? Posso cancelar?",
+      answer: "Claro! Você pode cancelar a qualquer momento, sem burocracia. Basta enviar uma mensagem no WhatsApp pedindo o cancelamento."
     },
     {
       question: "Quantos documentos posso gerar por mês?",
@@ -52,7 +52,7 @@ export const FAQSection = () => {
     },
     {
       question: "Tenho suporte se precisar de ajuda?",
-      answer: "Sempre! Nosso suporte é humanizado e funciona pelo próprio WhatsApp. Nossa equipe está disponível para tirar dúvidas, ajudar com documentos específicos e garantir que você aproveite ao máximo a Aulix. Resposta rápida garantida!"
+      answer: "Sempre! Nosso suporte é humanizado e funciona pelo próprio WhatsApp. Nossa equipe está disponível em horário comercial para tirar dúvidas, ajudar com documentos específicos e garantir que você aproveite ao máximo a Aulix. Resposta em até 24hs nos dias úteis!"
     }
   ];
 
@@ -112,7 +112,7 @@ export const FAQSection = () => {
           <Card className="bg-background text-center p-6 shadow-soft">
             <CardContent className="p-0">
               <Users className="w-8 h-8 text-secondary mx-auto mb-3" />
-              <div className="text-2xl font-bold text-foreground mb-1">2.000+</div>
+              <div className="text-2xl font-bold text-foreground mb-1">100+</div>
               <div className="text-sm text-muted-foreground">Professores ativos</div>
             </CardContent>
           </Card>
@@ -141,8 +141,7 @@ export const FAQSection = () => {
               Ainda tem dúvidas?
             </h3>
             <p className="text-muted-foreground mb-6">
-              Fale diretamente conosco pelo WhatsApp! Nossa equipe está pronta para 
-              esclarecer qualquer questão e te ajudar a começar.
+              Converse com a Aulix! Ela poderá esclarecer qualquer questão e te ajudar a começar. Se precisar peça para conversar com um humano e nsosa equipe entrará em contato.
             </p>
             <button 
               onClick={handleWhatsAppClick}
