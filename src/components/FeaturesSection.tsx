@@ -123,7 +123,7 @@ export const FeaturesSection = () => {
                   <li>Documentos prontos em minutos</li>
                   <li>Organização profissional</li>
                   <li>Linguagem pedagógica correta</li>
-                  <li>Mais tempo para os alunos</li>
+                  <li>Mais tempo para os você</li>
                 </ul>
               </div>
             </div>
@@ -203,7 +203,7 @@ export const FeaturesSection = () => {
               <Mail className="w-8 h-8 text-secondary" />
             </div>
             <h3 className="font-semibold mb-2">Múltiplos Formatos</h3>
-            <p className="text-sm text-muted-foreground">WhatsApp, email ou Google Docs</p>
+            <p className="text-sm text-muted-foreground">Receba os documentos diretamente no WhatsApp, email ou Google Docs</p>
           </div>
         </div>
       </div>
