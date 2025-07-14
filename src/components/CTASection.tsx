@@ -21,7 +21,7 @@ export const CTASection = () => {
           {/* Urgency Badge */}
           <Badge className="bg-white/20 text-white border-white/30 mb-6">
             <Users className="w-4 h-4 mr-2" />
-            Mais de 2.000 professores já usam a Aulix
+            Centenas de professores já usam a Aulix
           </Badge>
 
           {/* Main CTA Headline */}
@@ -116,7 +116,8 @@ export const CTASection = () => {
               />
             </div>
             <p className="text-white/60 text-sm">
-              © 2025 Aulix. Todos os direitos reservados. | Desenvolvido com ❤️ para educadores brasileiros.
+              © 2025 <b style="color:#3b82f6;">Aulix</b>, a assistente de IA generativa amiga dos professores! 🧑‍🏫<br />
+              Todos os direitos reservados. | Desenvolvido com ❤️ para educadores brasileiros.
             </p>
           </div>
         </div>
