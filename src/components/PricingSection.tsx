@@ -48,10 +48,10 @@ export const PricingSection = () => {
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
                   <span>Todos os tipos de documentos</span>
                 </li>
-                <li className="flex items-center gap-2">
+               <!--  <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
                   <span>Suporte via WhatsApp</span>
-                </li>
+                </li> -->
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
                   <span>Base BNCC</span>
@@ -143,16 +143,16 @@ export const PricingSection = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
-                  <span>Recursos exclusivos</span>
+                  <span>Economia e tranquilidade</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
-                  <span>Acesso antecipado</span>
+                  <span>Acesso antecipado às novidades</span>
                 </li>
-                <li className="flex items-center gap-2">
+                <!-- <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
                   <span>Consultoria pedagógica</span>
-                </li>
+                </li> -->
               </ul>
               <Button 
                 className="w-full" 
