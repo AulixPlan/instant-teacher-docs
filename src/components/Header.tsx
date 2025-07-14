@@ -22,7 +22,7 @@ export const Header = () => {
           onClick={handleWhatsAppClick}
           className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-medium backdrop-blur-sm"
         >
-          Falar no WhatsApp
+          Fale com a Aulix no WhatsApp
         </Button>
       </div>
     </header>
