@@ -1,16 +1,104 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { 
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { HelpCircle, MessageCircle, Clock, Shield, BookOpen, Users } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { HelpCircle, MessageCircle, Clock, Shield, BookOpen, Users, User } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import * as z from "zod";
+import emailjs from "emailjs-com";
+import { useState } from "react";
+import { toast } from "@/components/ui/sonner";
+
+const formSchema = z.object({
+  nome: z.string().min(2, "Nome deve ter pelo menos 2 caracteres"),
+  email: z.string().email("Email inválido"),
+  whatsapp: z.string().regex(/^[\d\s\(\)\-\+]+$/, "Número de telefone inválido").min(10, "WhatsApp deve ter pelo menos 10 dígitos"),
+  serie: z.string().min(1, "Selecione uma série"),
+  assunto: z.string().min(1, "Selecione um assunto"),
+  mensagem: z.string().min(10, "Mensagem deve ter pelo menos 10 caracteres"),
+});
+
+type FormData = z.infer<typeof formSchema>;
 
 export const FAQSection = () => {
-  const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5511973367370", "_blank");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const form = useForm<FormData>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      nome: "",
+      email: "",
+      whatsapp: "",
+      serie: "",
+      assunto: "",
+      mensagem: "",
+    },
+  });
+
+  const handleAulixWhatsApp = () => {
+    const message = encodeURIComponent("Olá, me explique como você funciona");
+    window.open(`https://wa.me/5511973367370?text=${message}`, "_blank");
+  };
+
+  const onSubmit = async (data: FormData) => {
+    setIsSubmitting(true);
+    
+    try {
+      await emailjs.send(
+        'service_uoc33lw',
+        'template_aulix',
+        {
+          nome: data.nome,
+          email: data.email,
+          whatsapp: data.whatsapp,
+          serie: data.serie,
+          assunto: data.assunto,
+          mensagem: data.mensagem,
+        },
+        'YOUR_PUBLIC_KEY' // Você precisa substituir pela sua chave pública do EmailJS
+      );
+      
+      toast.success("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+      form.reset();
+      setIsModalOpen(false);
+    } catch (error) {
+      toast.error("Erro ao enviar mensagem. Tente novamente.");
+      console.error('EmailJS error:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const faqs = [
@@ -145,15 +233,173 @@ export const FAQSection = () => {
               Ainda tem dúvidas?
             </h3>
             <p className="text-muted-foreground mb-6">
-              Converse com a Aulix! Ela poderá esclarecer qualquer questão e te ajudar a começar. Se precisar peça para conversar com um humano e nsosa equipe entrará em contato.
+              Converse com a Aulix! Ela poderá esclarecer qualquer questão e te ajudar a começar. Se precisar peça para conversar com um humano e nossa equipe entrará em contato.
             </p>
-            <button 
-              onClick={handleWhatsAppClick}
-              className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-            >
-              <MessageCircle className="w-5 h-5" />
-              Falar com Suporte
-            </button>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button 
+                onClick={handleAulixWhatsApp}
+                className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
+              >
+                <MessageCircle className="w-5 h-5" />
+                Falar com a Aulix
+              </Button>
+
+              <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
+                <DialogTrigger asChild>
+                  <Button 
+                    variant="outline"
+                    className="inline-flex items-center gap-2 border-primary text-primary hover:bg-primary/10 font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
+                  >
+                    <User className="w-5 h-5" />
+                    Falar com um Humano
+                  </Button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-[500px] max-h-[90vh] overflow-y-auto">
+                  <DialogHeader>
+                    <DialogTitle>Falar com um Humano</DialogTitle>
+                    <DialogDescription>
+                      Preencha o formulário abaixo e nossa equipe entrará em contato com você.
+                    </DialogDescription>
+                  </DialogHeader>
+                  
+                  <Form {...form}>
+                    <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+                      <FormField
+                        control={form.control}
+                        name="nome"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>Nome Completo *</FormLabel>
+                            <FormControl>
+                              <Input placeholder="Seu nome completo" {...field} />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+
+                      <FormField
+                        control={form.control}
+                        name="email"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>Email *</FormLabel>
+                            <FormControl>
+                              <Input type="email" placeholder="seu@email.com" {...field} />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+
+                      <FormField
+                        control={form.control}
+                        name="whatsapp"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>WhatsApp *</FormLabel>
+                            <FormControl>
+                              <Input placeholder="(11) 99999-9999" {...field} />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+
+                      <FormField
+                        control={form.control}
+                        name="serie"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>Série *</FormLabel>
+                            <Select onValueChange={field.onChange} defaultValue={field.value}>
+                              <FormControl>
+                                <SelectTrigger>
+                                  <SelectValue placeholder="Selecione a série" />
+                                </SelectTrigger>
+                              </FormControl>
+                              <SelectContent>
+                                <SelectItem value="educacao-infantil-i">Educação Infantil I</SelectItem>
+                                <SelectItem value="educacao-infantil-ii">Educação Infantil II</SelectItem>
+                                <SelectItem value="ensino-fundamental">Ensino Fundamental</SelectItem>
+                                <SelectItem value="ensino-medio">Ensino Médio</SelectItem>
+                              </SelectContent>
+                            </Select>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+
+                      <FormField
+                        control={form.control}
+                        name="assunto"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>Assunto *</FormLabel>
+                            <Select onValueChange={field.onChange} defaultValue={field.value}>
+                              <FormControl>
+                                <SelectTrigger>
+                                  <SelectValue placeholder="Selecione o assunto" />
+                                </SelectTrigger>
+                              </FormControl>
+                              <SelectContent>
+                                <SelectItem value="duvida">Dúvida</SelectItem>
+                                <SelectItem value="informacao">Informação</SelectItem>
+                                <SelectItem value="suporte">Suporte</SelectItem>
+                                <SelectItem value="sugestao">Sugestão</SelectItem>
+                                <SelectItem value="elogio">Elogio</SelectItem>
+                                <SelectItem value="depoimento">Depoimento</SelectItem>
+                                <SelectItem value="reclamacao">Reclamação</SelectItem>
+                                <SelectItem value="parceria">Parceria</SelectItem>
+                                <SelectItem value="outros">Outros</SelectItem>
+                              </SelectContent>
+                            </Select>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+
+                      <FormField
+                        control={form.control}
+                        name="mensagem"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>Mensagem *</FormLabel>
+                            <FormControl>
+                              <Textarea 
+                                placeholder="Descreva sua dúvida ou mensagem..."
+                                className="min-h-[100px]"
+                                {...field} 
+                              />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+
+                      <div className="flex gap-3 pt-4">
+                        <Button
+                          type="button"
+                          variant="outline"
+                          onClick={() => setIsModalOpen(false)}
+                          className="flex-1"
+                        >
+                          Cancelar
+                        </Button>
+                        <Button
+                          type="submit"
+                          disabled={isSubmitting}
+                          className="flex-1 bg-primary hover:bg-primary/90"
+                        >
+                          {isSubmitting ? "Enviando..." : "Enviar Mensagem"}
+                        </Button>
+                      </div>
+                    </form>
+                  </Form>
+                </DialogContent>
+              </Dialog>
+            </div>
           </div>
         </div>
       </div>
