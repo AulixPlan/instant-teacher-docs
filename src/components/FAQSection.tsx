@@ -87,7 +87,7 @@ export const FAQSection = () => {
           assunto: data.assunto,
           mensagem: data.mensagem,
         },
-        'YOUR_PUBLIC_KEY' // Você precisa substituir pela sua chave pública do EmailJS
+        'zmFe_onX09Tz3Acxd' // Você precisa substituir pela sua chave pública do EmailJS
       );
       
       toast.success("Mensagem enviada com sucesso! Entraremos em contato em breve.");
