@@ -366,7 +366,7 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
                 <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
                   <DialogHeader>
                     <DialogTitle className="text-2xl font-bold text-center">
-                      📚 Exemplos de Documentos Gerados pela Aulix
+                      Exemplos de Documentos Gerados pela Aulix
                     </DialogTitle>
                     <DialogDescription className="text-center text-lg">
                       Veja como ficam os documentos criados pela nossa IA pedagógica
