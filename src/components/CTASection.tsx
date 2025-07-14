@@ -4,7 +4,7 @@ import { MessageCircle, Shield, Users, Clock, Instagram, Facebook } from "lucide
 
 export const CTASection = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5511973367370", "_blank");
+    window.open("https://wa.me/5511973367370?text=Ol%C3%A1%2C%20como%20voc%C3%AA%20pode%20me%20ajudar%3F", "_blank");
   };
 
   return (
