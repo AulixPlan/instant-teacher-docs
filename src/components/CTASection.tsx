@@ -116,7 +116,7 @@ export const CTASection = () => {
               />
             </div>
             <p className="text-white/60 text-sm">
-              © 2025 <b style="color:#3b82f6;">Aulix</b>, a assistente de IA generativa amiga dos professores! 🧑‍🏫<br />
+              © 2025 
               Todos os direitos reservados. | Desenvolvido com ❤️ para educadores brasileiros.
             </p>
           </div>
