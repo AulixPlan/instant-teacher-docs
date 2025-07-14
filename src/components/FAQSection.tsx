@@ -16,7 +16,7 @@ export const FAQSection = () => {
   const faqs = [
     {
       question: "Como funciona a Aulix? É realmente pelo WhatsApp?",
-      answer: "Sim! A Aulix funciona 100% pelo WhatsApp. É só mandar mensagem e começar a conversar, A Aulix vai pedir algumas informações (turma, atividade, objetivos) e em poucos minutos recebe seu documento pronto. Não precisa baixar app nem aprender nada novo - é tudo no WhatsApp que você já usa todos os dias. Se quiser a Aulix ainda envia um link para o documento no Google docs ou direto para o seu email!"
+      answer: "Sim! A Aulix funciona 100% pelo WhatsApp. É só mandar mensagem e começar a conversar, A Aulix vai pedir algumas informações (turma, atividade, objetivos) e em poucos minutos recebe seu documento pronto. Não precisa baixar app nem aprender nada novo - é tudo no WhatsApp que você já usa todos os dias. E se você quiser a Aulix ainda envia um link para o documento no Google docs ou direto para o seu email!"
     },
     {
       question: "Quanto tempo leva para receber meus documentos?",
@@ -49,6 +49,10 @@ export const FAQSection = () => {
     {
       question: "Funciona para todas as disciplinas?",
       answer: "Sim! A Aulix gera documentos para todas as disciplinas: Português, Matemática, Ciências, História, Geografia, Arte, Educação Física, Inglês e muito mais. Também atende áreas específicas como Psicopedagogia e Educação Especial."
+    },
+    {
+      question: "Posso fazer as perguntas por voz?",
+      answer: "Sim! Você pode mandar suas perguntas por voz, a Aulix tem entende dessa forma também. Dependendo do tipo de documento talvez você até queira mandar alguma imagem, experimente!"
     },
     {
       question: "Tenho suporte se precisar de ajuda?",
