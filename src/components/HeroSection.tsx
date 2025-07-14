@@ -69,7 +69,7 @@ export const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-6 pt-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                <span>Mais de 1.000 professores cadastrados</span>
+                <span>Centenas de professores cadastrados</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-secondary rounded-full"></div>
@@ -105,7 +105,7 @@ export const HeroSection = () => {
               
               <div className="absolute -bottom-6 -right-6 bg-card border border-primary/20 rounded-2xl p-4 shadow-lg backdrop-blur-sm">
                 <div className="text-center">
-                  <div className="text-lg font-bold text-primary">3 min</div>
+                  <div className="text-lg font-bold text-primary">Em minutos</div>
                   <div className="text-xs text-muted-foreground">Relatório pronto</div>
                 </div>
               </div>
