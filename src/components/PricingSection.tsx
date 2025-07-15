@@ -179,15 +179,6 @@ export const PricingSection = () => {
                         Continuar Pagamento
                       </Button>
                     </div>
-                    
-                    {/* Iframe para pagamento */}
-                    <div className="mt-6">
-                      <iframe
-                        src="https://sandbox.asaas.com/c/paxpelj839y3s8xq"
-                        className="w-full h-96 border rounded-lg"
-                        title="Pagamento Plano Mensal"
-                      />
-                    </div>
                   </div>
                 </DialogContent>
               </Dialog>
@@ -282,15 +273,6 @@ export const PricingSection = () => {
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Continuar Pagamento
                       </Button>
-                    </div>
-                    
-                    {/* Iframe para pagamento */}
-                    <div className="mt-6">
-                      <iframe
-                        src="https://sandbox.asaas.com/c/7mq05ckrl33jjn6q"
-                        className="w-full h-96 border rounded-lg"
-                        title="Pagamento Plano Anual"
-                      />
                     </div>
                   </div>
                 </DialogContent>
