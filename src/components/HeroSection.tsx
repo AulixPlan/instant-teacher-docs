@@ -475,9 +475,9 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
                     </DialogDescription>
                   </DialogHeader>
                   
-                  <Tabs defaultValue="planoAula" className="w-full">
+                  <Tabs defaultValue="planejamentoSemanal" className="w-full">
                     <TabsList className="grid w-full grid-cols-3">
-                      <TabsTrigger value="planoAula" className="flex items-center gap-2">
+                      <TabsTrigger value="planejamentoSemanal" className="flex items-center gap-2">
                         <FileText className="w-4 h-4" />
                         Plano de Aula
                       </TabsTrigger>
