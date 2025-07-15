@@ -104,7 +104,7 @@ export const FAQSection = () => {
   const faqs = [
     {
       question: "Como funciona a Aulix? É realmente pelo WhatsApp?",
-      answer: "Sim! A Aulix funciona 100% pelo WhatsApp. É só mandar mensagem e começar a conversar, A Aulix vai pedir algumas informações (turma, atividade, objetivos) e em poucos minutos recebe seu documento pronto. Não precisa baixar app nem aprender nada novo - é tudo no WhatsApp que você já usa todos os dias. E se você quiser a Aulix ainda envia um link para o documento no Google docs ou direto para o seu email!"
+      answer: "Sim! A Aulix funciona 100% pelo WhatsApp. É só mandar uma mensagem e começar a conversar, A Aulix vai pedir algumas informações (turma, atividade, objetivos) e em poucos minutos você recebe seu documento pronto. Não precisa baixar app nem aprender nada novo - é tudo no WhatsApp que você já usa todos os dias. E se você quiser a Aulix ainda envia um link para o documento no Google docs ou direto para o seu email!"
     },
     {
       question: "Quanto tempo leva para receber meus documentos?",
@@ -120,7 +120,7 @@ export const FAQSection = () => {
     },
     {
       question: "Como funciona o teste grátis de 24 horas?",
-      answer: "É simples: basta enviar sua primeira mensagem pelo WhatsApp e seu acesso completo será liberado por 24 horas. Nesse período você pode gerar os documentos que quiser, testar todos os tipos (relatórios, planejamentos, avaliações). Não pedimos cartão de crédito."
+      answer: "É simples: basta enviar sua primeira mensagem pelo WhatsApp e seu acesso completo será liberado por 24 horas. Nesse período você pode gerar os documentos que quiser, testar todos os tipos (relatórios, planejamentos, avaliações). Não pedimos cartão de crédito para você testar."
     },
     {
       question: "E depois de assinar, se eu não quiser mais? Posso cancelar?",
@@ -139,12 +139,16 @@ export const FAQSection = () => {
       answer: "Sim! A Aulix gera documentos para todas as disciplinas: Português, Matemática, Ciências, História, Geografia, Arte, Educação Física, Inglês e muito mais. Também atende áreas específicas como Psicopedagogia e Educação Especial."
     },
     {
+      question: "Usar a Aulix não é a mesma coisa que usar o chatGPT ou alguma outra plataforma de IA?",
+      answer: "Não, porque a Aulix já foi treinada especificamente para a Educação por nossa equipe especializada; entendendo a linguagem pedagógica, seguindo a BNCC automaticamente e entregando documentos prontos, no formato certo, direto no WhatsApp. Usando um chat de IA você teria que saber pedir o documento correto, verificar como adaptar à BNCC, ajustar o formato manualmente, copiar, colar, revisar... Com a Aulix é só mandar fazer e responder algumas perguntas e você recebe tudo prontinho, formatado e organizado. É a diferença entre montar o quebra cabeça ou receber ele pronto na sua mão!"
+    },
+    {
       question: "Posso fazer as perguntas por voz?",
-      answer: "Sim! Você pode mandar suas perguntas por voz, a Aulix tem entende dessa forma também. Dependendo do tipo de documento talvez você até queira mandar alguma imagem, experimente!"
+      answer: "Sim! Você pode mandar suas perguntas por voz, a Aulix entende dessa forma também. Dependendo do tipo de documento talvez você até queira mandar alguma imagem, experimente!"
     },
     {
       question: "Tenho suporte se precisar de ajuda?",
-      answer: "Sempre! Nosso suporte é humanizado e funciona pelo próprio WhatsApp. Nossa equipe está disponível em horário comercial para tirar dúvidas, ajudar com documentos específicos e garantir que você aproveite ao máximo a Aulix. Resposta em até 24hs nos dias úteis!"
+      answer: "Sempre! Nosso suporte é humanizado e funciona pelo próprio WhatsApp. Nossa equipe está disponível em horário comercial para tirar dúvidas, ajudar com documentos específicos e garantir que você aproveite ao máximo a Aulix. Respostas em até 24hs nos dias úteis!"
     }
   ];
 
