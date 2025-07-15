@@ -28,86 +28,187 @@ export const HeroSection = () => {
   };
 
   const examples = {
-    planoAula: {
-      title: "Plano de Aula",
+    planejamentoSemanal: {
+      title: "Planejamento Semanal",
       icon: FileText,
-      whatsapp: `📚 *PLANO DE AULA - 3º ANO FUNDAMENTAL*
+      whatsapp: `📚 *PLANEJAMENTO SEMANAL - TURMA 2 ANOS*
 
-🎯 *Disciplina:* Matemática
-📅 *Data:* 15/03/2024
-⏰ *Duração:* 50 minutos
+📅 Segunda-feira  
+📋 Nome da vivência: "Descobrindo a amizade no brincar"  
+📌 Código BNCC: EI01EO01  
+🌱 Campo de Experiência: O eu, o outro e o nós (EO)  
+🧸 Recursos: bolinhas de sabão, tecidos coloridos, brinquedos simples para compartilhar  
+🎲 Desenvolvimento: Propor brincadeiras em duplas e pequenos grupos para estimular o convívio social e o respeito ao outro.
 
-*TEMA:* Multiplicação - Conceitos Iniciais
+📅 Terça-feira  
+📋 Nome da vivência: "Explorando o corpo em movimento"  
+📌 Código BNCC: EI01CG02  
+🌱 Campo de Experiência: Corpo, gestos e movimentos (CG)  
+🧸 Recursos: cordas, cones, bolas, espaço aberto ao ar livre  
+🎲 Desenvolvimento: Atividades de correr, pular, equilibrar-se e manipular objetos para desenvolver coordenação motora grossa e consciência corporal.
 
-*OBJETIVOS:*
-• Compreender o conceito de multiplicação como adição de parcelas iguais
-• Resolver problemas simples envolvendo multiplicação
-• Desenvolver o raciocínio lógico-matemático
+📅 Quarta-feira  
+📋 Nome da vivência: "Brincando com cores e formas"  
+📌 Código BNCC: EI01TS03  
+🌱 Campo de Experiência: Traços, sons, cores e formas (TS)  
+🧸 Recursos: folhas coloridas, giz de cera, pedras pintadas, instrumentos musicais simples  
+🎲 Desenvolvimento: Atividades de pintura, desenho livre e exploração sonora para estimular a criatividade e percepção visual e auditiva.
 
-*HABILIDADES BNCC:*
-(EF03MA07) Resolver e elaborar problemas de multiplicação
+📅 Quinta-feira  
+📋 Nome da vivência: "Contação de histórias e sons"  
+📌 Código BNCC: EI01EF04  
+🌱 Campo de Experiência: Escuta, fala, pensamento e imaginação (EF)  
+🧸 Recursos: fantoches simples, livros ilustrados, instrumentos musicais pequenos  
+🎲 Desenvolvimento: Contação de histórias com uso de fantoches e músicas para incentivar a linguagem oral, atenção e imaginação.
 
-*METODOLOGIA:*
-1️⃣ Roda de conversa sobre situações do cotidiano
-2️⃣ Atividade prática com material concreto
-3️⃣ Exercícios no caderno
-4️⃣ Jogo educativo em duplas
-
-*RECURSOS:*
-• Tampinhas coloridas
-• Folha de atividades
-• Quadro e giz
-
-*AVALIAÇÃO:*
-Observação da participação e resolução dos exercícios propostos
-
-✅ Documento gerado pela Aulix em 2 minutos!`,
+📅 Sexta-feira  
+📋 Nome da vivência: "Explorando o espaço e a quantidade"  
+📌 Código BNCC: EI01ET05  
+🌱 Campo de Experiência: Espaços, tempos, quantidades, relações e transformações (ET)  
+🧸 Recursos: blocos de montar, recipientes para água, caixas, objetos naturais  
+🎲 Desenvolvimento: Brincadeiras de empilhar, contar e observar mudanças de estados com objetos e materiais diversos para introduzir conceitos matemáticos simples.`,
       email: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
-          <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-            <h1 style="color: #2c3e50; text-align: center; margin-bottom: 30px;">📚 PLANO DE AULA - 3º ANO FUNDAMENTAL</h1>
-            
-            <div style="background-color: #ecf0f1; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-              <h2 style="color: #34495e; margin-top: 0;">Informações Gerais</h2>
-              <p><strong>Disciplina:</strong> Matemática</p>
-              <p><strong>Data:</strong> 15/03/2024</p>
-              <p><strong>Duração:</strong> 50 minutos</p>
-              <p><strong>Tema:</strong> Multiplicação - Conceitos Iniciais</p>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">🎯 Objetivos</h2>
-              <ul style="line-height: 1.6;">
-                <li>Compreender o conceito de multiplicação como adição de parcelas iguais</li>
-                <li>Resolver problemas simples envolvendo multiplicação</li>
-                <li>Desenvolver o raciocínio lógico-matemático</li>
-              </ul>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">📋 Habilidades BNCC</h2>
-              <p style="background-color: #e8f5e8; padding: 10px; border-radius: 5px; font-weight: bold;">
-                (EF03MA07) Resolver e elaborar problemas de multiplicação
-              </p>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">🔧 Metodologia</h2>
-              <ol style="line-height: 1.6;">
-                <li>Roda de conversa sobre situações do cotidiano</li>
-                <li>Atividade prática com material concreto</li>
-                <li>Exercícios no caderno</li>
-                <li>Jogo educativo em duplas</li>
-              </ol>
-            </div>
-
-            <div style="text-align: center; margin-top: 30px; padding: 20px; background-color: #e3f2fd; border-radius: 8px;">
-              <p style="margin: 0; color: #1976d2; font-weight: bold;">✅ Documento gerado pela Aulix em 2 minutos!</p>
-            </div>
-          </div>
-        </div>
+        <h1 style="color:#3b82f6;font-family:Arial">Planejamento Semanal - Educação Infantil (2 anos)</h1>
+                                                <p style="font-family:Arial;font-size:14px">
+                                                    Olá, Adriana!
+                                                    <br>
+                                                    Segue o planejamento para a semana, elaborado com muito carinho e alinhado à BNCC, focado nas crianças de 2 anos. As atividades priorizam o brincar livre, contato com a natureza e o uso de materiais simples.
+                                                    <br>
+                                                    <br>
+                                                    <strong>Segunda-feira</strong>
+                                                    <br>
+                                                <ul>
+                                                    <li>
+                                                        <strong>Nome da vivência:</strong>
+                                                         Descobrindo a amizade no brincar
+                                                    </li>
+                                                    <li>
+                                                        <strong>Código BNCC:</strong>
+                                                         EI01EO01
+                                                    </li>
+                                                    <li>
+                                                        <strong>Campo de Experiência:</strong>
+                                                         O eu, o outro e o nós (EO)
+                                                    </li>
+                                                    <li>
+                                                        <strong>Recursos:</strong>
+                                                         Bolinhas de sabão, tecidos coloridos, brinquedos simples para compartilhar
+                                                    </li>
+                                                    <li>
+                                                        <strong>Desenvolvimento:</strong>
+                                                         Brincadeiras em duplas e pequenos grupos para estimular o convívio social e o respeito ao outro.
+                                                    </li>
+                                                </ul>
+                                                <br>
+                                                <strong>Terça-feira</strong>
+                                                <br>
+                                                <ul>
+                                                    <li>
+                                                        <strong>Nome da vivência:</strong>
+                                                         Explorando o corpo em movimento
+                                                    </li>
+                                                    <li>
+                                                        <strong>Código BNCC:</strong>
+                                                         EI01CG02
+                                                    </li>
+                                                    <li>
+                                                        <strong>Campo de Experiência:</strong>
+                                                         Corpo, gestos e movimentos (CG)
+                                                    </li>
+                                                    <li>
+                                                        <strong>Recursos:</strong>
+                                                         Cordas, cones, bolas, espaço aberto ao ar livre
+                                                    </li>
+                                                    <li>
+                                                        <strong>Desenvolvimento:</strong>
+                                                         Atividades de correr, pular, equilibrar-se e manipular objetos para desenvolver coordenação motora e consciência corporal.
+                                                    </li>
+                                                </ul>
+                                                <br>
+                                                <strong>Quarta-feira</strong>
+                                                <br>
+                                                <ul>
+                                                    <li>
+                                                        <strong>Nome da vivência:</strong>
+                                                         Brincando com cores e formas
+                                                    </li>
+                                                    <li>
+                                                        <strong>Código BNCC:</strong>
+                                                         EI01TS03
+                                                    </li>
+                                                    <li>
+                                                        <strong>Campo de Experiência:</strong>
+                                                         Traços, sons, cores e formas (TS)
+                                                    </li>
+                                                    <li>
+                                                        <strong>Recursos:</strong>
+                                                         Folhas coloridas, giz de cera, pedras pintadas, instrumentos musicais simples
+                                                    </li>
+                                                    <li>
+                                                        <strong>Desenvolvimento:</strong>
+                                                         Pintura, desenho livre e exploração sonora para estimular criatividade e percepção visual e auditiva.
+                                                    </li>
+                                                </ul>
+                                                <br>
+                                                <strong>Quinta-feira</strong>
+                                                <br>
+                                                <ul>
+                                                    <li>
+                                                        <strong>Nome da vivência:</strong>
+                                                         Contação de histórias e sons
+                                                    </li>
+                                                    <li>
+                                                        <strong>Código BNCC:</strong>
+                                                         EI01EF04
+                                                    </li>
+                                                    <li>
+                                                        <strong>Campo de Experiência:</strong>
+                                                         Escuta, fala, pensamento e imaginação (EF)
+                                                    </li>
+                                                    <li>
+                                                        <strong>Recursos:</strong>
+                                                         Fantoches simples, livros ilustrados, instrumentos musicais pequenos
+                                                    </li>
+                                                    <li>
+                                                        <strong>Desenvolvimento:</strong>
+                                                         Contação de histórias com fantoches e músicas para incentivar linguagem oral, atenção e imaginação.
+                                                    </li>
+                                                </ul>
+                                                <br>
+                                                <strong>Sexta-feira</strong>
+                                                <br>
+                                                <ul>
+                                                    <li>
+                                                        <strong>Nome da vivência:</strong>
+                                                         Explorando o espaço e a quantidade
+                                                    </li>
+                                                    <li>
+                                                        <strong>Código BNCC:</strong>
+                                                         EI01ET05
+                                                    </li>
+                                                    <li>
+                                                        <strong>Campo de Experiência:</strong>
+                                                         Espaços, tempos, quantidades, relações e transformações (ET)
+                                                    </li>
+                                                    <li>
+                                                        <strong>Recursos:</strong>
+                                                         Blocos de montar, recipientes para água, caixas, objetos naturais
+                                                    </li>
+                                                    <li>
+                                                        <strong>Desenvolvimento:</strong>
+                                                         Brincadeiras de empilhar, contar e observar mudanças de estados com objetos e materiais para introduzir conceitos matemáticos simples.
+                                                    </li>
+                                                </ul>
+                                                <br>
+                                                <br>
+                                                <hr>
+                                                <p style="font-family:Arial;color:#555">
+                                                    Documento criado pela 
+                                                    <b style="color:#3b82f6">Aulix</b>
+                                                    , a assistente de IA generativa amiga dos professores! 🧑
+                                                </p>
       `,
-      googleDocs: "https://docs.google.com/document/d/1example-plano-aula/edit"
+      googleDocs: "https://docs.google.com/document/d/1QkWqjXVp3KIrULb-bCVXDlAPXziFtNpnnHi_7JHobb0/edit?usp=sharing"
     },
     diarioBordo: {
       title: "Diário de Bordo",
