@@ -1,11 +1,33 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { MessageCircle, Check, Clock, Shield, Zap } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { MessageCircle, Check, Clock, Shield, Zap, AlertTriangle, ExternalLink } from "lucide-react";
+import { useState } from "react";
 
 export const PricingSection = () => {
+  const [isMonthlyModalOpen, setIsMonthlyModalOpen] = useState(false);
+  const [isAnnualModalOpen, setIsAnnualModalOpen] = useState(false);
+
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/5511973367370", "_blank");
+  };
+
+  const handleMonthlySubscription = () => {
+    window.open("https://sandbox.asaas.com/c/paxpelj839y3s8xq", "_blank");
+    setIsMonthlyModalOpen(false);
+  };
+
+  const handleAnnualSubscription = () => {
+    window.open("https://sandbox.asaas.com/c/7mq05ckrl33jjn6q", "_blank");
+    setIsAnnualModalOpen(false);
   };
 
   return (
@@ -101,15 +123,72 @@ export const PricingSection = () => {
                   <span>Cancele quando quiser</span>
                 </li>
               </ul>
-              <Button 
-                className="w-full" 
-                variant="hero"
-                size="lg"
-                onClick={handleWhatsAppClick}
-              >
-                <MessageCircle className="w-4 h-4 mr-2" />
-                Assinar Agora
-              </Button>
+              <Dialog open={isMonthlyModalOpen} onOpenChange={setIsMonthlyModalOpen}>
+                <DialogTrigger asChild>
+                  <Button 
+                    className="w-full" 
+                    variant="hero"
+                    size="lg"
+                  >
+                    <MessageCircle className="w-4 h-4 mr-2" />
+                    Assinar Agora
+                  </Button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-[500px]">
+                  <DialogHeader>
+                    <DialogTitle className="text-2xl font-bold text-center text-primary">
+                      🎉 Excelente Escolha!
+                    </DialogTitle>
+                    <DialogDescription className="text-center text-lg">
+                      Parabéns por escolher o Plano Mensal da Aulix!
+                    </DialogDescription>
+                  </DialogHeader>
+                  
+                  <div className="space-y-6">
+                    {/* Observação importante */}
+                    <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
+                      <div className="flex items-start">
+                        <AlertTriangle className="w-5 h-5 text-yellow-600 mt-0.5 mr-3 flex-shrink-0" />
+                        <div>
+                          <p className="font-semibold text-yellow-800 mb-2">*ATENÇÃO*</p>
+                          <p className="text-yellow-700 text-sm leading-relaxed">
+                            Em uma das próximas telas você deverá preencher corretamente seu número de telefone. 
+                            Esse número deve ser o número de WhatsApp que você irá acessar o sistema 
+                            (o acesso será liberado somente para esse número).
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Informações de liberação */}
+                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h3 className="font-semibold text-green-800 mb-2">⚡ Liberação do Acesso:</h3>
+                      <ul className="text-green-700 text-sm space-y-1">
+                        <li>• <strong>PIX e Cartão de Crédito:</strong> Acesso liberado em minutos</li>
+                        <li>• <strong>Boleto:</strong> Até 3 dias úteis após compensação</li>
+                      </ul>
+                    </div>
+
+                    {/* Botão de ação */}
+                    <div className="flex gap-3 pt-4">
+                      <Button
+                        variant="outline"
+                        onClick={() => setIsMonthlyModalOpen(false)}
+                        className="flex-1"
+                      >
+                        Cancelar
+                      </Button>
+                      <Button
+                        onClick={handleMonthlySubscription}
+                        className="flex-1 bg-primary hover:bg-primary/90"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Continuar Pagamento
+                      </Button>
+                    </div>
+                  </div>
+                </DialogContent>
+              </Dialog>
             </CardContent>
           </Card>
 
@@ -146,15 +225,72 @@ export const PricingSection = () => {
                   <span>Acesso antecipado às novidades</span>
                 </li>
               </ul>
-              <Button 
-                className="w-full" 
-                variant="cta"
-                size="lg"
-                onClick={handleWhatsAppClick}
-              >
-                <MessageCircle className="w-4 h-4 mr-2" />
-                Escolher Anual
-              </Button>
+              <Dialog open={isAnnualModalOpen} onOpenChange={setIsAnnualModalOpen}>
+                <DialogTrigger asChild>
+                  <Button 
+                    className="w-full" 
+                    variant="cta"
+                    size="lg"
+                  >
+                    <MessageCircle className="w-4 h-4 mr-2" />
+                    Escolher Anual
+                  </Button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-[500px]">
+                  <DialogHeader>
+                    <DialogTitle className="text-2xl font-bold text-center text-secondary">
+                      🎉 Excelente Escolha!
+                    </DialogTitle>
+                    <DialogDescription className="text-center text-lg">
+                      Parabéns por escolher o Plano Anual da Aulix! Você economizou R$ 58,90!
+                    </DialogDescription>
+                  </DialogHeader>
+                  
+                  <div className="space-y-6">
+                    {/* Observação importante */}
+                    <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
+                      <div className="flex items-start">
+                        <AlertTriangle className="w-5 h-5 text-yellow-600 mt-0.5 mr-3 flex-shrink-0" />
+                        <div>
+                          <p className="font-semibold text-yellow-800 mb-2">*ATENÇÃO*</p>
+                          <p className="text-yellow-700 text-sm leading-relaxed">
+                            Em uma das próximas telas você deverá preencher corretamente seu número de telefone. 
+                            Esse número deve ser o número de WhatsApp que você irá acessar o sistema 
+                            (o acesso será liberado somente para esse número).
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Informações de liberação */}
+                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h3 className="font-semibold text-green-800 mb-2">⚡ Liberação do Acesso:</h3>
+                      <ul className="text-green-700 text-sm space-y-1">
+                        <li>• <strong>PIX e Cartão de Crédito:</strong> Acesso liberado em minutos</li>
+                        <li>• <strong>Boleto:</strong> Até 3 dias úteis após compensação</li>
+                      </ul>
+                    </div>
+
+                    {/* Botão de ação */}
+                    <div className="flex gap-3 pt-4">
+                      <Button
+                        variant="outline"
+                        onClick={() => setIsAnnualModalOpen(false)}
+                        className="flex-1"
+                      >
+                        Cancelar
+                      </Button>
+                      <Button
+                        onClick={handleAnnualSubscription}
+                        className="flex-1 bg-secondary hover:bg-secondary/90"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Continuar Pagamento
+                      </Button>
+                    </div>
+                  </div>
+                </DialogContent>
+              </Dialog>
             </CardContent>
           </Card>
         </div>
