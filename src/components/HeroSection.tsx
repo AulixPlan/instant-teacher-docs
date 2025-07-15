@@ -69,9 +69,7 @@ export const HeroSection = () => {
 🎲 Desenvolvimento: Brincadeiras de empilhar, contar e observar mudanças de estados com objetos e materiais diversos para introduzir conceitos matemáticos simples.`,
       email: `
         <h1 style="color:#3b82f6;font-family:Arial">Planejamento Semanal - Educação Infantil (2 anos)</h1>
-                                                <p style="font-family:Arial;font-size:14px">
-                                                    Olá, Adriana!
-                                                    <br>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
                                                     Segue o planejamento para a semana, elaborado com muito carinho e alinhado à BNCC, focado nas crianças de 2 anos. As atividades priorizam o brincar livre, contato com a natureza e o uso de materiais simples.
                                                     <br>
                                                     <br>
@@ -479,7 +477,7 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
                     <TabsList className="grid w-full grid-cols-3">
                       <TabsTrigger value="planejamentoSemanal" className="flex items-center gap-2">
                         <FileText className="w-4 h-4" />
-                        Plano de Aula
+                        Planejamento Semanal
                       </TabsTrigger>
                       <TabsTrigger value="diarioBordo" className="flex items-center gap-2">
                         <Calendar className="w-4 h-4" />
