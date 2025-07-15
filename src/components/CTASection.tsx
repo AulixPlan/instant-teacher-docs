@@ -198,13 +198,13 @@ export const CTASection = () => {
                 </DialogTrigger>
                 <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
                   <DialogHeader>
-                    <DialogTitle className="text-2xl font-bold">📜 Termos de Uso — Aulix Planejamento</DialogTitle>
+                    <DialogTitle className="text-2xl font-bold">📜 Termos de Uso — Aulix Documentações Pedagógicas</DialogTitle>
                   </DialogHeader>
                   <div className="prose prose-sm max-w-none">
-                    <p>Seja bem-vindo(a) ao site da Aulix, sua assistente de inteligência artificial voltada à criação de planejamentos pedagógicos alinhados à BNCC (Base Nacional Comum Curricular). Ao acessar ou utilizar este site, você concorda com os seguintes Termos de Uso:</p>
+                    <p>Seja bem-vindo(a) ao site da Aulix, sua assistente de inteligência artificial voltada à criação de documentações pedagógicas alinhadas à BNCC (Base Nacional Comum Curricular). Ao acessar ou utilizar este site, você concorda com os seguintes Termos de Uso:</p>
                     
                     <h3 className="text-lg font-semibold mt-6 mb-3">1. Objetivo do Serviço</h3>
-                    <p>A Aulix é uma agente de IA que oferece suporte a professores na criação de planejamentos de aula personalizados. O serviço inclui um teste gratuito durante um período de 24 horas e, posteriormente, a possibilidade de uma assinatura mensal ou anual para uso contínuo.</p>
+                    <p>A Aulix é uma agente de IA que oferece suporte a professores na criação de documentações pedagógicas personalizadas. O serviço inclui um teste gratuito durante um período de 24 horas e, posteriormente, a possibilidade de uma assinatura mensal ou anual para uso contínuo.</p>
                     
                     <h3 className="text-lg font-semibold mt-6 mb-3">2. Uso Responsável</h3>
                     <p>O usuário se compromete a utilizar a plataforma de maneira ética, sem violar leis, direitos de terceiros ou os presentes termos.</p>
@@ -216,7 +216,7 @@ export const CTASection = () => {
                     <p>O usuário pode cancelar a assinatura a qualquer momento. O cancelamento não dá direito a reembolso proporcional do valor pago, salvo em caso de falha no serviço.</p>
                     
                     <h3 className="text-lg font-semibold mt-6 mb-3">5. Propriedade Intelectual</h3>
-                    <p>Todos os textos, imagens, funcionalidades e conteúdos gerados pela Aulix são protegidos por direitos autorais e pertencem à Aulix Planejamento. É proibida a reprodução sem autorização.</p>
+                    <p>Todos os textos, imagens, funcionalidades e conteúdos gerados pela Aulix são protegidos por direitos autorais e pertencem à Aulix Documentações Pedagógicas. É proibida a reprodução sem autorização.</p>
                     
                     <h3 className="text-lg font-semibold mt-6 mb-3">6. Modificações</h3>
                     <p>A Aulix se reserva o direito de modificar estes termos a qualquer momento, sendo responsabilidade do usuário revisá-los periodicamente.</p>
