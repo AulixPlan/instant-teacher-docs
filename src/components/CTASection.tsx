@@ -78,16 +78,7 @@ export const CTASection = () => {
 
           {/* Contact Information */}
           <div className="text-center space-y-4">
-            <p className="text-white/80">
-              Fale agora com a Aulix:{" "}
-              <a 
-                href="tel:+5511973367370" 
-                className="font-bold text-yellow-300 hover:text-yellow-200 transition-colors"
-              >
-                (11) 97336-7370
-              </a>
-            </p>
-            
+           
             <div className="flex justify-center gap-6">
               <a 
                 href="https://www.instagram.com/aulixplanejamento" 
