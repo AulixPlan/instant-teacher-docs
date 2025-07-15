@@ -170,21 +170,23 @@ export const PricingSection = () => {
                     </div>
 
                     {/* Botão de ação */}
-                    <div className="flex gap-3 pt-4">
-                      <Button
-                        variant="outline"
-                        onClick={() => setIsMonthlyModalOpen(false)}
-                        className="flex-1"
-                      >
-                        Cancelar
-                      </Button>
+                    <div className="pt-4">
                       <Button
                         onClick={handleMonthlySubscription}
-                        className="flex-1 bg-primary hover:bg-primary/90"
+                        className="w-full bg-primary hover:bg-primary/90"
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Continuar Pagamento
                       </Button>
+                    </div>
+                    
+                    {/* Iframe para pagamento */}
+                    <div className="mt-6">
+                      <iframe
+                        src="https://sandbox.asaas.com/c/paxpelj839y3s8xq"
+                        className="w-full h-96 border rounded-lg"
+                        title="Pagamento Plano Mensal"
+                      />
                     </div>
                   </div>
                 </DialogContent>
@@ -272,21 +274,23 @@ export const PricingSection = () => {
                     </div>
 
                     {/* Botão de ação */}
-                    <div className="flex gap-3 pt-4">
-                      <Button
-                        variant="outline"
-                        onClick={() => setIsAnnualModalOpen(false)}
-                        className="flex-1"
-                      >
-                        Cancelar
-                      </Button>
+                    <div className="pt-4">
                       <Button
                         onClick={handleAnnualSubscription}
-                        className="flex-1 bg-secondary hover:bg-secondary/90"
+                        className="w-full bg-secondary hover:bg-secondary/90"
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Continuar Pagamento
                       </Button>
+                    </div>
+                    
+                    {/* Iframe para pagamento */}
+                    <div className="mt-6">
+                      <iframe
+                        src="https://sandbox.asaas.com/c/7mq05ckrl33jjn6q"
+                        className="w-full h-96 border rounded-lg"
+                        title="Pagamento Plano Anual"
+                      />
                     </div>
                   </div>
                 </DialogContent>
