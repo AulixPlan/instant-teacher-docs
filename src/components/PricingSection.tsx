@@ -17,7 +17,8 @@ export const PricingSection = () => {
   const [isAnnualModalOpen, setIsAnnualModalOpen] = useState(false);
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5511973367370", "_blank");
+    const message = encodeURIComponent("Quero testar a Aulix!");
+    window.open(`https://wa.me/5511973367370?text=${message}`, "_blank");
   };
 
   const handleMonthlySubscription = () => {
