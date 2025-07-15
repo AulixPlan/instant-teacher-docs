@@ -384,14 +384,6 @@ export const FAQSection = () => {
 
                       <div className="flex gap-3 pt-4">
                         <Button
-                          type="button"
-                          variant="outline"
-                          onClick={() => setIsModalOpen(false)}
-                          className="flex-1"
-                        >
-                          Cancelar
-                        </Button>
-                        <Button
                           type="submit"
                           disabled={isSubmitting}
                           className="flex-1 bg-primary hover:bg-primary/90"
