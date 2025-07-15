@@ -6,45 +6,54 @@
 
 @layer base {
   :root {
-    --background: 210 26% 9%; /* #0A192F - Azul Marinho Escuro */
+    --background: 220 30% 8%; /* #0F0F23 - Azul Escuro Moderno */
     --foreground: 0 0% 100%; /* Branco para texto */
 
-    --card: 210 22% 13%; /* #212121 - Grafite */
+    --card: 220 25% 12%; /* #1A1B2E - Azul Grafite Moderno */
     --card-foreground: 0 0% 100%;
 
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Aulix New Brand Colors - Dark sophisticated theme */
-    --primary: 197 78% 69%; /* #6DD5ED - Azul Celeste */
-    --primary-foreground: 210 22% 13%; /* #212121 - Grafite escuro */
-    --primary-glow: 197 78% 79%;
+    /* Aulix New Brand Colors - Vibrant modern theme */
+    --primary: 200 100% 60%; /* #00BFFF - Azul Ciano Vibrante */
+    --primary-foreground: 220 30% 8%; /* Fundo escuro */
+    --primary-glow: 200 100% 70%;
 
-    /* Vibrant Green for CTAs and highlights */
-    --secondary: 88 47% 55%; /* #8BC34A - Verde Limão */
+    /* Electric Purple for CTAs and highlights */
+    --secondary: 280 100% 70%; /* #B347FF - Roxo Elétrico */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 16% 88%; /* #E0E0E0 - Cinza Claro */
-    --muted-foreground: 210 16% 78%;
+    /* Accent colors for variety */
+    --accent-green: 150 100% 50%; /* #00FF80 - Verde Neon */
+    --accent-orange: 30 100% 60%; /* #FF9900 - Laranja Vibrante */
+    --accent-pink: 320 100% 70%; /* #FF33CC - Rosa Elétrico */
+    --accent-yellow: 50 100% 60%; /* #FFCC00 - Amarelo Dourado */
 
+    --muted: 220 20% 85%; /* Cinza mais claro */
+    --muted-foreground: 220 15% 70%;
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 100% 65%; /* Vermelho mais vibrante */
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 220 91% 57%;
+    --ring: 200 100% 60%; /* Anel de foco ciano */
 
-    /* Aulix Custom Design Tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(210 26% 9%), hsl(210 22% 13%));
-    --gradient-card: linear-gradient(145deg, hsl(210 22% 13%), hsl(210 20% 16%));
-    --gradient-success: linear-gradient(135deg, hsl(88 47% 55%), hsl(88 47% 65%));
+    /* Aulix Custom Design Tokens - Vibrant gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 30% 8%), hsl(280 40% 15%), hsl(200 50% 12%));
+    --gradient-card: linear-gradient(145deg, hsl(220 25% 12%), hsl(220 30% 15%), hsl(280 20% 18%));
+    --gradient-success: linear-gradient(135deg, hsl(280 100% 70%), hsl(320 100% 70%));
+    --gradient-primary: linear-gradient(135deg, hsl(200 100% 60%), hsl(180 100% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(150 100% 50%), hsl(120 100% 60%));
     
-    --shadow-soft: 0 4px 20px -5px hsl(220 91% 57% / 0.15);
-    --shadow-card: 0 10px 25px -5px hsl(0 0% 0% / 0.1);
-    --shadow-glow: 0 0 30px hsl(220 91% 57% / 0.3);
+    --shadow-soft: 0 4px 20px -5px hsl(200 100% 60% / 0.25);
+    --shadow-card: 0 10px 25px -5px hsl(0 0% 0% / 0.3);
+    --shadow-glow: 0 0 30px hsl(200 100% 60% / 0.4);
+    --shadow-purple: 0 0 30px hsl(280 100% 70% / 0.4);
+    --shadow-green: 0 0 30px hsl(150 100% 50% / 0.4);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);

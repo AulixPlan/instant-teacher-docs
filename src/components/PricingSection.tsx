@@ -91,7 +91,7 @@ export const PricingSection = () => {
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
               <Badge className="bg-gradient-success text-white px-4 py-1">
                 <Zap className="w-4 h-4 mr-1" />
-                Mais Popular
+              <Shield className="w-5 h-5 text-accent-green" />
               </Badge>
             </div>
             <CardHeader className="text-center pb-4 pt-8">
@@ -190,13 +190,13 @@ export const PricingSection = () => {
             <CardHeader className="text-center pb-4">
               <Badge variant="outline" className="w-fit mx-auto mb-2 text-secondary border-secondary/30">
                 <Shield className="w-4 h-4 mr-1" />
-                Melhor Valor
+                <span className="text-accent-orange">Melhor Valor</span>
               </Badge>
               <CardTitle className="text-2xl">Plano Anual</CardTitle>
               <div className="text-4xl font-bold text-primary">R$ 299,90</div>
               <div className="text-muted-foreground">/ano</div>
               <div className="text-sm text-secondary font-medium">
-                Economize R$ 58,90 no ano!
+                <span className="text-accent-green">Economize R$ 58,90 no ano!</span>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">

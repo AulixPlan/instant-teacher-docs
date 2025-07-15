@@ -50,15 +50,15 @@ export const CTASection = () => {
           {/* Risk-Free Features */}
           <div className="grid md:grid-cols-3 gap-6 mb-10">
             <div className="flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-              <Clock className="w-6 h-6 text-yellow-300 flex-shrink-0" />
+              <Clock className="w-6 h-6 text-accent-yellow flex-shrink-0" />
               <span className="font-medium">Teste grátis por 24 horas</span>
             </div>
             <div className="flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-              <Shield className="w-6 h-6 text-yellow-300 flex-shrink-0" />
+              <Shield className="w-6 h-6 text-accent-green flex-shrink-0" />
               <span className="font-medium">Cancele a qualquer tempo</span>
             </div>
             <div className="flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-              <MessageCircle className="w-6 h-6 text-yellow-300 flex-shrink-0" />
+              <MessageCircle className="w-6 h-6 text-accent-pink flex-shrink-0" />
               <span className="font-medium">Suporte humanizado</span>
             </div>
           </div>
@@ -103,7 +103,7 @@ export const CTASection = () => {
 
           {/* Final Guarantee */}
           <div className="mt-12 inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3">
-            <Shield className="w-5 h-5 text-yellow-300" />
+            <Shield className="w-5 h-5 text-accent-green" />
             <span className="text-sm font-medium">
               Garantia de satisfação • Risco zero • Suporte completo
             </span>

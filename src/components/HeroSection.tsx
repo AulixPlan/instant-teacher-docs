@@ -320,7 +320,7 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
           <div className="space-y-8 order-2 lg:order-1">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-primary/30">
-              <span className="w-2 h-2 bg-secondary rounded-full animate-pulse"></span>
+              <span className="w-2 h-2 bg-accent-green rounded-full animate-pulse"></span>
               Inteligência Artificial para Educação
             </div>
             
@@ -333,8 +333,8 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
               </h1>
               
               <div className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                Com a <span className="text-secondary font-semibold">Aulix</span>, professores da Educação Infantil ao Ensino Médio 
-                geram documentos pedagógicos direto no <span className="text-secondary font-semibold">WhatsApp</span> — em minutos e com base na BNCC.
+                Com a <span className="text-accent-green font-semibold">Aulix</span>, professores da Educação Infantil ao Ensino Médio 
+                geram documentos pedagógicos direto no <span className="text-accent-green font-semibold">WhatsApp</span> — em minutos e com base na BNCC.
               </div>
             </div>
             
@@ -349,7 +349,7 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
               <Button 
                 onClick={handleWhatsAppClick}
                 size="lg" 
-                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="bg-gradient-success text-white font-semibold px-8 py-4 text-lg shadow-purple hover:shadow-purple hover:scale-105 transition-all duration-300"
               >
                 Teste grátis por 24hs
               </Button>
@@ -359,7 +359,7 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
                   <Button 
                     variant="outline" 
                     size="lg"
-                    className="border-primary text-primary hover:bg-primary/10 font-medium px-8 py-4 text-lg backdrop-blur-sm border-2"
+                    className="border-primary text-primary hover:bg-primary/20 hover:shadow-glow font-medium px-8 py-4 text-lg backdrop-blur-sm border-2 transition-all duration-300"
                   >
                     Veja exemplos de documentos
                   </Button>
@@ -465,7 +465,7 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
                     <Button 
                       onClick={handleAulixWhatsApp}
                       size="lg"
-                      className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                      className="bg-gradient-success text-white font-semibold px-8 py-4 text-lg shadow-purple hover:shadow-purple hover:scale-105 transition-all duration-300"
                     >
                       <MessageCircle className="w-5 h-5 mr-2" />
                       Faça o seu agora mesmo!
@@ -481,15 +481,15 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
             {/* Trust indicators */}
             <div className="flex flex-col sm:flex-row gap-6 pt-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                <div className="w-2 h-2 bg-accent-green rounded-full animate-pulse"></div>
                 <span>Centenas de professores cadastrados</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                <div className="w-2 h-2 bg-accent-orange rounded-full animate-pulse"></div>
                 <span>Alinhado 100% à BNCC</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                <div className="w-2 h-2 bg-accent-pink rounded-full animate-pulse"></div>
                 <span>Suporte gratuito</span>
               </div>
             </div>
@@ -511,7 +511,7 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
               {/* Floating elements */}
               <div className="absolute -top-6 -left-6 bg-card border border-primary/20 rounded-2xl p-4 shadow-lg backdrop-blur-sm">
                 <div className="flex items-center gap-3">
-                  <div className="w-3 h-3 bg-secondary rounded-full animate-pulse"></div>
+                  <div className="w-3 h-3 bg-accent-green rounded-full animate-pulse"></div>
                   <span className="text-sm font-medium text-foreground">WhatsApp conectado</span>
                 </div>
               </div>
@@ -523,9 +523,9 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
                 </div>
               </div>
               
-              <div className="absolute top-1/2 -right-8 bg-card border border-secondary/20 rounded-xl p-3 shadow-lg backdrop-blur-sm">
+              <div className="absolute top-1/2 -right-8 bg-card border border-accent-yellow/30 rounded-xl p-3 shadow-lg backdrop-blur-sm">
                 <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                  <div className="w-2 h-2 bg-accent-yellow rounded-full animate-pulse"></div>
                   <span className="text-xs font-medium text-foreground">BNCC</span>
                 </div>
               </div>
