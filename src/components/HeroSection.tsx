@@ -207,8 +207,8 @@ export const HeroSection = () => {
       `,
       googleDocs: "https://docs.google.com/document/d/1QkWqjXVp3KIrULb-bCVXDlAPXziFtNpnnHi_7JHobb0/edit?usp=sharing"
     },
-    encaminhamento: {
-      title: "Encaminhamento",
+    projetoPedagogico: {
+      title: "Projeto Pedagógico",
       icon: Calendar,
       whatsapp: `📘 Projeto Pedagógico: Leitura para o 1º Ano — 30 alunos
 
@@ -267,154 +267,171 @@ No 1º ano, é essencial estimular o gosto pela leitura desde cedo. O contato co
 - Literatura infantil adequada à faixa etária.
 😊📚`,
       email: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
-          <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-            <h1 style="color: #2c3e50; text-align: center; margin-bottom: 30px;">📝 DIÁRIO DE BORDO - TURMA MATERNAL II</h1>
-            
-            <div style="background-color: #fff3e0; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-              <h2 style="color: #e65100; margin-top: 0;">Informações da Turma</h2>
-              <p><strong>Data:</strong> 20/03/2024</p>
-              <p><strong>Turma:</strong> Maternal II (3-4 anos)</p>
-              <p><strong>Professora:</strong> Maria Silva</p>
-              <p><strong>Crianças presentes:</strong> 18</p>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">🌅 Acolhida (8h-8h30)</h2>
-              <ul style="line-height: 1.6;">
-                <li>Roda de conversa sobre o fim de semana</li>
-                <li>Música "Bom dia coleguinha"</li>
-              </ul>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">🎨 Atividade Dirigida (8h30-9h30)</h2>
-              <ul style="line-height: 1.6;">
-                <li>Pintura com tinta guache - tema "Família"</li>
-                <li>Desenvolvimento da coordenação motora fina</li>
-                <li>Expressão artística e criatividade</li>
-              </ul>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">📋 Observações Importantes</h2>
-              <div style="background-color: #e8f5e8; padding: 15px; border-radius: 5px;">
-                <p>• João demonstrou maior interesse nas atividades artísticas</p>
-                <p>• Ana precisa de apoio na socialização</p>
-                <p>• Turma muito participativa na roda de conversa</p>
-              </div>
-            </div>
-
-            <div style="text-align: center; margin-top: 30px; padding: 20px; background-color: #e3f2fd; border-radius: 8px;">
-              <p style="margin: 0; color: #1976d2; font-weight: bold;">✅ Registro completo gerado pela Aulix!</p>
-            </div>
-          </div>
-        </div>
+        <h1 style="color:#3b82f6;font-family:Arial">Projeto Pedagógico: Leitura para o 1º Ano — 30 alunos</h1>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Tema:</strong>
+                                                     Leitura para criar interesse por livros impressos
+                                                </p>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Justificativa:</strong>
+                                                    <br>
+                                                    No 1º ano, é essencial estimular o gosto pela leitura desde cedo. O contato com livros impressos ajuda no desenvolvimento da linguagem, da imaginação, e na construção do hábito de leitura. A participação da família fortalece esse processo, criando um ambiente afetivo e colaborativo para o aprendizado.
+                                                </p>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Objetivos Gerais:</strong>
+                                                    <br>
+                                                    - Desenvolver o interesse e o prazer pela leitura de livros impressos.
+                                                    <br>
+                                                    - Estimular a relação entre os alunos e a família em torno da leitura.
+                                                </p>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Objetivos Específicos:</strong>
+                                                    <br>
+                                                    - Incentivar a descoberta do mundo pelas palavras e imagens dos livros.
+                                                    <br>
+                                                    - Promover a leitura compartilhada em sala e em casa.
+                                                    <br>
+                                                    - Fomentar o uso do livro como fonte de conhecimento e lazer.
+                                                    <br>
+                                                    - Desenvolver habilidades iniciais de linguagem oral e escrita.
+                                                </p>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Campos de Experiência e Habilidades da BNCC:</strong>
+                                                    <br>
+                                                    - Corpo, gestos e movimentos: para as interações durante rodas de leitura e dramatizações.
+                                                    <br>
+                                                    - Traços, sons, cores e formas: para a interação com textos e ilustrações dos livros.
+                                                    <br>
+                                                    - Escuta, fala, pensamento e imaginação: para estimular oralidade e compreensão.
+                                                    <br>
+                                                    - Espaços, tempos, quantidades, relações e transformações: para compreender sequências e histórias.
+                                                </p>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Etapas do Projeto:</strong>
+                                                    <br>
+                                                    - Seleção de livros adequados para o 1º ano, com ilustrações atrativas.
+                                                    <br>
+                                                    - Roda de leitura semanal em sala para apresentar histórias e estimular o debate.
+                                                    <br>
+                                                    - Atividades de registro simples: desenhos, recontar histórias oralmente, pequenas produções.
+                                                    <br>
+                                                    - Envolvimento da família: empréstimo de livros para leitura em casa com participação dos pais/colegas.
+                                                    <br>
+                                                    - Visitas à biblioteca da escola ou espaços de leitura no bairro.
+                                                    <br>
+                                                    - Apresentações orais ou dramatizações com base nas leituras.
+                                                </p>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Cronograma:</strong>
+                                                    <br>
+                                                    - 1º bimestre – Apresentação do projeto, escolha dos livros e roda de leitura inicial.
+                                                    <br>
+                                                    - 2º bimestre – Leitura compartilhada, registro e envolvimento da família com empréstimos.
+                                                    <br>
+                                                    - 3º bimestre – Visita à biblioteca e atividades de dramatização.
+                                                    <br>
+                                                    - 4º bimestre – Apresentações finais e avaliação do interesse e participação.
+                                                </p>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Recursos:</strong>
+                                                    <br>
+                                                    - Livros impressos selecionados para idade e interesse.
+                                                    <br>
+                                                    - Material para registros (cadernos, lápis de cor, papéis).
+                                                    <br>
+                                                    - Espaço para roda de leitura confortável e acolhedor.
+                                                    <br>
+                                                    - Apoio da família na leitura em casa.
+                                                </p>
+                                                <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                    <strong>Avaliação:</strong>
+                                                    <br>
+                                                    - Observação contínua da participação nas rodas de leitura.
+                                                    <br>
+                                                    - Registros das produções das crianças.
+                                                    <br>
+                                                    - Relato da participação familiar.
+                                                    <br>
+                                                    - Apreciação do interesse pelas leituras e progresso na linguagem oral e escrita.
+                                                </p>
+                                                <br>
+                                                <br>
+                                                <hr>
+                                                <p style="color:#000000;font-family:Arial;font-size:11px">
+                                                    Documento criado pela 
+                                                    <b>Aulix</b>
+                                                    , a assistente de IA generativa amiga dos professores! 🧑‍🏫
+                                                </p>
       `,
-      googleDocs: "https://docs.google.com/document/d/1example-diario-bordo/edit"
+      googleDocs: "https://docs.google.com/document/d/1r9wQC-0cuNmqi_jMx9yOZKRfQEnxDtQ_eKbh_IdTET4/edit?usp=sharing"
     },
-    projetoPedagogico: {
-      title: "Projeto Pedagógico",
+    encaminhamento: {
+      title: "Encaminhamento",
       icon: Target,
-      whatsapp: `🌱 *PROJETO PEDAGÓGICO: "PEQUENOS CIENTISTAS"*
+      whatsapp: `**Encaminhamento para Avaliação Fonoaudiológica**
 
-🎯 *Público-alvo:* 1º ano do Ensino Fundamental
-📅 *Duração:* 4 semanas (Abril/2024)
-🔬 *Área:* Ciências da Natureza
+Escola: Primeiros Passos  
+Aluno(a): João Silva  
+Idade: 06 anos  
+Turma: 1º ano
 
-*JUSTIFICATIVA:*
-Despertar a curiosidade científica nas crianças através de experimentos simples e observação da natureza, desenvolvendo o pensamento crítico e investigativo.
+Prezados(as),
 
-*OBJETIVOS GERAIS:*
-• Estimular a curiosidade científica
-• Desenvolver habilidades de observação
-• Promover o trabalho em equipe
-• Introduzir conceitos básicos de ciências
+Venho por meio deste encaminhar o aluno João Silva para avaliação fonoaudiológica especializada, devido às observações feitas em sala de aula relacionadas às dificuldades na fala e na expressão oral.
 
-*HABILIDADES BNCC:*
-(EF01CI01) Comparar características de diferentes materiais
-(EF01CI02) Localizar, nomear e representar partes do corpo
-(EF01CI03) Discutir as razões pelas quais os hábitos de higiene são necessários
+O João apresenta dificuldades para se expressar verbalmente, manifestando limitações na articulação das palavras e na construção de frases, o que impacta sua comunicação cotidiana e participação nas atividades escolares. Essa situação tem sido observada nas interações com colegas e professores, comprometendo seu desenvolvimento comunicativo.
 
-*CRONOGRAMA:*
+Até o momento, foram realizadas intervenções pedagógicas em sala, com estímulos e atividades que favorecem a oralidade, entretanto, o acompanhamento profissional específico se faz necessário para um diagnóstico detalhado e o direcionamento de estratégias apropriadas.
 
-📅 *Semana 1:* Estados da Água
-• Experimento: gelo derretendo
-• Observação da chuva
-• Registro em desenhos
+Solicitamos uma avaliação fonoaudiológica para identificar as necessidades do João e contribuir para seu desenvolvimento integral.
 
-📅 *Semana 2:* Plantas e Germinação
-• Plantio de feijão no algodão
-• Observação diária do crescimento
-• Diário da plantinha
+Atenciosamente,
 
-📅 *Semana 3:* Corpo Humano
-• Exploração dos 5 sentidos
-• Jogos sensoriais
-• Higiene pessoal
+[Assinatura do(a) Professor(a)]
 
-📅 *Semana 4:* Feira de Ciências
-• Apresentação dos experimentos
-• Exposição dos registros
-• Convite às famílias
+[Nome do Diretor(a)]  
+Direção - Escola Primeiros Passos
 
-*RECURSOS NECESSÁRIOS:*
-• Materiais para experimentos
-• Sementes de feijão
-• Lupas
-• Cartolinas para registro
+---
 
-*AVALIAÇÃO:*
-Observação contínua da participação, curiosidade demonstrada e registros produzidos pelas crianças.
-
-🔬 Projeto completo desenvolvido pela Aulix!`,
+📄✍️`,
       email: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
-          <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-            <h1 style="color: #2c3e50; text-align: center; margin-bottom: 30px;">🌱 PROJETO PEDAGÓGICO: "PEQUENOS CIENTISTAS"</h1>
-            
-            <div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-              <h2 style="color: #2e7d32; margin-top: 0;">Informações Gerais</h2>
-              <p><strong>Público-alvo:</strong> 1º ano do Ensino Fundamental</p>
-              <p><strong>Duração:</strong> 4 semanas (Abril/2024)</p>
-              <p><strong>Área:</strong> Ciências da Natureza</p>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">🎯 Justificativa</h2>
-              <p style="line-height: 1.6; text-align: justify;">
-                Despertar a curiosidade científica nas crianças através de experimentos simples e observação da natureza, 
-                desenvolvendo o pensamento crítico e investigativo.
-              </p>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">📋 Objetivos Gerais</h2>
-              <ul style="line-height: 1.6;">
-                <li>Estimular a curiosidade científica</li>
-                <li>Desenvolver habilidades de observação</li>
-                <li>Promover o trabalho em equipe</li>
-                <li>Introduzir conceitos básicos de ciências</li>
-              </ul>
-            </div>
-
-            <div style="margin-bottom: 20px;">
-              <h2 style="color: #34495e;">📅 Cronograma</h2>
-              <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px;">
-                <p><strong>Semana 1:</strong> Estados da Água</p>
-                <p><strong>Semana 2:</strong> Plantas e Germinação</p>
-                <p><strong>Semana 3:</strong> Corpo Humano</p>
-                <p><strong>Semana 4:</strong> Feira de Ciências</p>
-              </div>
-            </div>
-
-            <div style="text-align: center; margin-top: 30px; padding: 20px; background-color: #e3f2fd; border-radius: 8px;">
-              <p style="margin: 0; color: #1976d2; font-weight: bold;">🔬 Projeto completo desenvolvido pela Aulix!</p>
-            </div>
-          </div>
-        </div>
+        <h1 style="color:#3b82f6;font-family:Arial">Encaminhamento para Avaliação Fonoaudiológica</h1>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                            <strong>Escola:</strong>
+                                                             Primeiros Passos
+                                                            <br>
+                                                            <strong>Aluno(a):</strong>
+                                                             João Silva
+                                                            <br>
+                                                            <strong>Idade:</strong>
+                                                             06 anos
+                                                            <br>
+                                                            <strong>Turma:</strong>
+                                                             1º ano
+                                                        </p>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">Prezados(as),</p>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">Venho por meio deste encaminhar o aluno João Silva para avaliação fonoaudiológica especializada, devido às observações feitas em sala de aula relacionadas às dificuldades na fala e na expressão oral.</p>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">O João apresenta dificuldades para se expressar verbalmente, manifestando limitações na articulação das palavras e na construção de frases, o que impacta sua comunicação cotidiana e participação nas atividades escolares. Essa situação tem sido observada nas interações com colegas e professores, comprometendo seu desenvolvimento comunicativo.</p>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">Até o momento, foram realizadas intervenções pedagógicas em sala, com estímulos e atividades que favorecem a oralidade, entretanto, o acompanhamento profissional específico se faz necessário para um diagnóstico detalhado e o direcionamento de estratégias apropriadas.</p>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">Solicitamos uma avaliação fonoaudiológica para identificar as necessidades do João e contribuir para seu desenvolvimento integral.</p>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">Atenciosamente,</p>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">[Assinatura do(a) Professor(a)]</p>
+                                                        <p style="color:#000000;font-family:Arial;font-size:14px">
+                                                            [Nome do Diretor(a)]
+                                                            <br>
+                                                            Direção - Escola Primeiros Passos
+                                                        </p>
+                                                        <br>
+                                                        <br>
+                                                        <hr>
+                                                        <p style="font-family:Arial;color:#555;font-size:11px">
+                                                            Documento criado pela 
+                                                            <b style="color:#3b82f6">Aulix</b>
+                                                            , a assistente de IA generativa amiga dos professores! 🧑‍🏫
+                                                        </p>
       `,
-      googleDocs: "https://docs.google.com/document/d/1example-projeto-pedagogico/edit"
+      googleDocs: "https://docs.google.com/document/d/1amb84Lw-CCmCS1mVkrkmt4SRJx7wex4pAkuchEYrWz0/edit?usp=sharing"
     }
   };
 
