@@ -207,49 +207,65 @@ export const HeroSection = () => {
       `,
       googleDocs: "https://docs.google.com/document/d/1QkWqjXVp3KIrULb-bCVXDlAPXziFtNpnnHi_7JHobb0/edit?usp=sharing"
     },
-    diarioBordo: {
-      title: "Diário de Bordo",
+    projetoPedagogico: {
+      title: "Projeto Pedagógico",
       icon: Calendar,
-      whatsapp: `📝 *DIÁRIO DE BORDO - TURMA MATERNAL II*
+      whatsapp: `📘 Projeto Pedagógico: Leitura para o 1º Ano — 30 alunos
 
-📅 *Data:* 20/03/2024
-👥 *Turma:* Maternal II (3-4 anos)
-👩‍🏫 *Professora:* Maria Silva
+**Tema:**  
+Leitura para criar interesse por livros impressos
 
-*ATIVIDADES REALIZADAS:*
+**Justificativa:**  
+No 1º ano, é essencial estimular o gosto pela leitura desde cedo. O contato com livros impressos ajuda no desenvolvimento da linguagem, da imaginação, e na construção do hábito de leitura. A participação da família fortalece esse processo, criando um ambiente afetivo e colaborativo para o aprendizado.
 
-🌅 *ACOLHIDA (8h-8h30):*
-• Roda de conversa sobre o fim de semana
-• Música "Bom dia coleguinha"
-• 18 crianças presentes
+**Objetivos Gerais:**  
+- Desenvolver o interesse e o prazer pela leitura de livros impressos.  
+- Estimular a relação entre os alunos e a família em torno da leitura.
 
-🎨 *ATIVIDADE DIRIGIDA (8h30-9h30):*
-• Pintura com tinta guache - tema "Família"
-• Desenvolvimento da coordenação motora fina
-• Expressão artística e criatividade
+**Objetivos Específicos:**  
+- Incentivar a descoberta do mundo pelas palavras e imagens dos livros.  
+- Promover a leitura compartilhada em sala e em casa.  
+- Fomentar o uso do livro como fonte de conhecimento e lazer.  
+- Desenvolver habilidades iniciais de linguagem oral e escrita.  
 
-🍎 *LANCHE (9h30-10h):*
-• Frutas da estação
-• Conversa sobre alimentação saudável
+**Campos de Experiência e Habilidades da BNCC:**  
+- Corpo, gestos e movimentos: para as interações durante rodas de leitura e dramatizações.  
+- Traços, sons, cores e formas: para a interação com textos e ilustrações dos livros.  
+- Escuta, fala, pensamento e imaginação: para estimular oralidade e compreensão.  
+- Espaços, tempos, quantidades, relações e transformações: para compreender sequências e histórias.  
+(Habilidades específicas podem ser detalhadas conforme o recurso BNCC)
 
-🏃‍♀️ *RECREIO (10h-10h30):*
-• Brincadeiras livres no parque
-• Interação social entre as crianças
+**Etapas do Projeto:**  
+- Seleção de livros adequados para o 1º ano, com ilustrações atrativas.  
+- Roda de leitura semanal em sala para apresentar histórias e estimular o debate.  
+- Atividades de registro simples: desenhos, recontar histórias oralmente, pequenas produções.  
+- Envolvimento da família: empréstimo de livros para leitura em casa com participação dos pais/colegas.  
+- Visitas à biblioteca da escola ou espaços de leitura no bairro.  
+- Apresentações orais ou dramatizações com base nas leituras.  
 
-📚 *HISTÓRIA (10h30-11h):*
-• "O Patinho Feio" - Hans Christian Andersen
-• Discussão sobre diferenças e aceitação
+**Cronograma:**  
+- 1º bimestre – Apresentação do projeto, escolha dos livros e roda de leitura inicial.  
+- 2º bimestre – Leitura compartilhada, registro e envolvimento da família com empréstimos.  
+- 3º bimestre – Visita à biblioteca e atividades de dramatização.  
+- 4º bimestre – Apresentações finais e avaliação do interesse e participação.  
 
-*OBSERVAÇÕES:*
-• João demonstrou maior interesse nas atividades artísticas
-• Ana precisa de apoio na socialização
-• Turma muito participativa na roda de conversa
+**Recursos:**  
+- Livros impressos selecionados para idade e interesse.  
+- Material para registros (cadernos, lápis de cor, papéis).  
+- Espaço para roda de leitura confortável e acolhedor.  
+- Apoio da família na leitura em casa.  
 
-*PRÓXIMAS AÇÕES:*
-• Atividade de colagem para João
-• Dinâmicas de grupo para Ana
+**Avaliação:**  
+- Observação contínua da participação nas rodas de leitura.  
+- Registros das produções das crianças.  
+- Relato da participação familiar.  
+- Apreciação do interesse pelas leituras e progresso na linguagem oral e escrita.
 
-✅ Registro completo gerado pela Aulix!`,
+**Referências:**  
+- Base Nacional Comum Curricular (BNCC) – Educação Infantil e Ensino Fundamental, 1º ano.  
+- Teorias construtivistas relacionadas à aprendizagem pela experiência e brincadeiras.  
+- Literatura infantil adequada à faixa etária.
+😊📚`,
       email: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
           <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
@@ -478,9 +494,9 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
                         <FileText className="w-4 h-4" />
                         Planejamento Semanal
                       </TabsTrigger>
-                      <TabsTrigger value="diarioBordo" className="flex items-center gap-2">
+                      <TabsTrigger value="projetoPedagogico" className="flex items-center gap-2">
                         <Calendar className="w-4 h-4" />
-                        Diário de Bordo
+                        Projeto Pedagógico
                       </TabsTrigger>
                       <TabsTrigger value="projetoPedagogico" className="flex items-center gap-2">
                         <Target className="w-4 h-4" />
