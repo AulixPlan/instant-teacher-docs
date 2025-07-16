@@ -242,12 +242,12 @@ export const PricingSection = () => {
                   
                   <div className="space-y-6">
                     {/* Observação importante */}
-                    <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
+                    <div className="bg-primary-50 border-l-4 border-l-primary-400 p-4 rounded-r-lg shadow-sm">
                       <div className="flex items-start">
-                        <AlertTriangle className="w-5 h-5 text-yellow-600 mt-0.5 mr-3 flex-shrink-0" />
+                        <AlertTriangle className="w-5 h-5 text-primary-600 mt-0.5 mr-3 flex-shrink-0" />
                         <div>
-                          <p className="font-semibold text-yellow-800 mb-2">*ATENÇÃO*</p>
-                          <p className="text-yellow-700 text-sm leading-relaxed">
+                          <p className="font-semibold text-primary-800 mb-2">*ATENÇÃO*</p>
+                          <p className="text-primary-700 text-sm leading-relaxed">
                             Em uma das próximas telas você deverá preencher corretamente seu número de telefone. 
                             Esse número deve ser o número de WhatsApp que você irá acessar o sistema 
                             (o acesso será liberado somente para esse número).
@@ -255,13 +255,13 @@ export const PricingSection = () => {
                         </div>
                       </div>
                     </div>
-
+                    
                     {/* Informações de liberação */}
-                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                      <h3 className="font-semibold text-green-800 mb-2">⚡ Liberação do Acesso:</h3>
-                      <ul className="text-green-700 text-sm space-y-1">
-                        <li>• <strong>PIX e Cartão de Crédito:</strong> Acesso liberado em minutos</li>
-                        <li>• <strong>Boleto:</strong> Até 3 dias úteis após compensação</li>
+                    <div className="bg-neutral-50 border border-neutral-200 rounded-lg p-4 shadow-sm">
+                      <h3 className="font-semibold text-neutral-800 mb-2">⚡ Liberação do Acesso:</h3>
+                      <ul className="text-neutral-700 text-sm space-y-1 list-disc list-inside">
+                        <li><strong>PIX e Cartão de Crédito:</strong> Acesso liberado em minutos</li>
+                        <li><strong>Boleto:</strong> Até 3 dias úteis após compensação</li>
                       </ul>
                     </div>
 
