@@ -156,10 +156,13 @@ export const FeaturesSection = () => {
                   <li>Documentos prontos em minutos</li>
                   <li>Organização profissional</li>
                   <li>Linguagem pedagógica correta</li>
-                  <li>Mais tempo para os você</li>
+                  <li>Mais tempo para você</li>
                 </ul>
               </div>
             </div>
+            <h3 className="text-2xl font-bold text-center mb-8">
+              A Aulix faz o <span className="text-destructive">Plano</span>. Você vive o <span className="text-secondary">Propósito!</span>
+            </h3>
           </div>
         </div>
 
