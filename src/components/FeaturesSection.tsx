@@ -106,9 +106,9 @@ export const FeaturesSection = () => {
                   muted 
                   playsInline
                   className="w-full h-auto object-cover"
+                  poster="/placeholder-before.jpg"
                 >
                   <source src="/videos/antes-aulix.mp4" type="video/mp4" />
-                  <source src="/videos/antes-aulix.mov" type="video/quicktime" />
                   <source src="/videos/antes-aulix.webm" type="video/webm" />
                   Seu navegador não suporta vídeos HTML5.
                 </video>
@@ -125,9 +125,9 @@ export const FeaturesSection = () => {
                   muted 
                   playsInline
                   className="w-full h-auto object-cover"
+                  poster="/placeholder-depois.jpg"
                 >
                   <source src="/videos/depois-aulix.mp4" type="video/mp4" />
-                  <source src="/videos/depois-aulix.mov" type="video/quicktime" />
                   <source src="/videos/depois-aulix.webm" type="video/webm" />
                   Seu navegador não suporta vídeos HTML5.
                 </video>
