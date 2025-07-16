@@ -147,6 +147,10 @@ export const FAQSection = () => {
       answer: "Sim! Você pode mandar suas perguntas por voz, a Aulix entende dessa forma também. Dependendo do tipo de documento talvez você até queira mandar alguma imagem, experimente!"
     },
     {
+      question: "Usar a Aulix é 'trapacear'? Não seria mais honesto eu mesma escrever tudo?",
+      answer: "De jeito nenhum. Usar a Aulix não é trapacear — é usar tecnologia como apoio, não como substituição. Você continua responsável pelo conteúdo, pelos alunos e pela pedagogia. A Aulix só automatiza o que é burocrático, repetitivo e consome seu tempo. Assim como você usa um computador pra digitar ou o Google pra pesquisar, usar uma IA especializada pra gerar documentos é só mais uma ferramenta pra facilitar seu trabalho. O mérito continua sendo todo seu."
+    }
+    {
       question: "Tenho suporte se precisar de ajuda?",
       answer: "Sempre! Nosso suporte é humanizado e funciona pelo próprio WhatsApp. Nossa equipe está disponível em horário comercial para tirar dúvidas, ajudar com documentos específicos e garantir que você aproveite ao máximo a Aulix. Respostas em até 24hs nos dias úteis!"
     }
