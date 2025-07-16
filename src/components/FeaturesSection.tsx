@@ -146,6 +146,7 @@ export const FeaturesSection = () => {
                   <li>Documentos desorganizados</li>
                   <li>Linguagem informal</li>
                   <li>Estresse e sobrecarga</li>
+                  <li> </li>
                 </ul>
               </div>
               <div className="text-center">
@@ -157,6 +158,7 @@ export const FeaturesSection = () => {
                   <li>Organização profissional</li>
                   <li>Linguagem pedagógica correta</li>
                   <li>Mais tempo para você</li>
+                  <li> </li>
                 </ul>
               </div>
             </div>
