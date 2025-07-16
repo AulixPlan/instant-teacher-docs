@@ -174,30 +174,30 @@ export const FAQSection = () => {
           </p>
         </div>
 
-{/* FAQ Accordion */}
-<div className="max-w-4xl mx-auto mb-12">
-  <Accordion type="single" collapsible className="space-y-4">
-    {faqs.map((faq, index) => (
-      <AccordionItem
-        key={index}
-        value={`item-${index}`}
-        className="bg-gradient-to-br from-indigo-50 to-white rounded-xl shadow-lg animate-scale-in"
-        style={{ animationDelay: `${index * 0.1}s` }}
-      >
-        <AccordionTrigger className="px-6 py-4 text-left hover:no-underline">
-          <span className="font-semibold text-indigo-900 pr-4">
-            {faq.question}
-          </span>
-        </AccordionTrigger>
-        <AccordionContent className="px-6 pb-4">
-          <p className="text-indigo-800 text-sm leading-relaxed">
-            {faq.answer}
-          </p>
-        </AccordionContent>
-      </AccordionItem>
-    ))}
-  </Accordion>
-</div>
+        {/* FAQ Accordion */}
+        <div className="max-w-4xl mx-auto mb-12">
+          <Accordion type="single" collapsible className="space-y-4">
+            {faqs.map((faq, index) => (
+              <AccordionItem 
+                key={index} 
+                value={`item-${index}`}
+                className="bg-background rounded-lg border shadow-soft animate-scale-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <AccordionTrigger className="px-6 py-4 text-left hover:no-underline">
+                  <span className="font-semibold text-foreground pr-4">
+                    {faq.question}
+                  </span>
+                </AccordionTrigger>
+                <AccordionContent className="px-6 pb-4">
+                  <p className="text-muted-foreground leading-relaxed">
+                    {faq.answer}
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
 
 
         {/* Quick Stats */}
