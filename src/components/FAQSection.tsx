@@ -44,7 +44,8 @@ const formSchema = z.object({
   nome: z.string().min(2, "Nome deve ter pelo menos 2 caracteres"),
   email: z.string().email("Email inválido"),
   whatsapp: z.string().regex(/^[\d\s\(\)\-\+]+$/, "Número de telefone inválido").min(10, "WhatsApp deve ter pelo menos 10 dígitos"),
-  serie: z.string().min(1, "Selecione uma série"),
+/* serie: z.string().min(1, "Selecione uma série"), */
+  serie: z.string().optional(),
   assunto: z.string().min(1, "Selecione um assunto"),
   mensagem: z.string().min(10, "Mensagem deve ter pelo menos 10 caracteres"),
 });
@@ -338,7 +339,7 @@ export const FAQSection = () => {
         name="serie"
         render={({ field }) => (
           <FormItem>
-            <FormLabel>Série *</FormLabel>
+            <FormLabel>Série</FormLabel>
             <Select onValueChange={field.onChange} defaultValue={field.value}>
               <FormControl>
                 <SelectTrigger className="bg-background border border-muted rounded-md focus:ring-2 focus:ring-primary/30 shadow-inner">
