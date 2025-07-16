@@ -73,7 +73,7 @@ export const HeroSection = () => {
                                                     Segue o planejamento para a semana, elaborado com muito carinho e alinhado à BNCC, focado nas crianças de 2 anos. As atividades priorizam o brincar livre, contato com a natureza e o uso de materiais simples.
                                                     <br>
                                                     <br>
-                                                    <strong>Segunda-feira</strong>
+                                                    <strong><span style="color:#000000;font-family:Arial;font-size:14px">Segunda-feira</span></strong>
                                                     <br>
                                                 <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
@@ -98,7 +98,7 @@ export const HeroSection = () => {
                                                     </li>
                                                 </ul>
                                                 <br>
-                                                <strong>Terça-feira</strong>
+                                                <strong><span style="color:#000000;font-family:Arial;font-size:14px">Terça-feira</span></strong>
                                                 <br>
                                                 <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
@@ -123,7 +123,7 @@ export const HeroSection = () => {
                                                     </li>
                                                 </ul>
                                                 <br>
-                                                <strong>Quarta-feira</strong>
+                                                <strong><span style="color:#000000;font-family:Arial;font-size:14px">Quarta-feira</span></strong>
                                                 <br>
                                                 <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
@@ -148,7 +148,7 @@ export const HeroSection = () => {
                                                     </li>
                                                 </ul>
                                                 <br>
-                                                <strong>Quinta-feira</strong>
+                                                <strong><span style="color:#000000;font-family:Arial;font-size:14px">Quinta-feira</span></strong>
                                                 <br>
                                                 <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
@@ -173,7 +173,7 @@ export const HeroSection = () => {
                                                     </li>
                                                 </ul>
                                                 <br>
-                                                <strong>Sexta-feira</strong>
+                                                <strong><span style="color:#000000;font-family:Arial;font-size:14px">Sexta-feira</span></strong>
                                                 <br>
                                                 <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
