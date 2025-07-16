@@ -75,7 +75,7 @@ export const HeroSection = () => {
                                                     <br>
                                                     <strong>Segunda-feira</strong>
                                                     <br>
-                                                <ul>
+                                                <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
                                                         <strong>Nome da vivência:</strong>
                                                          Descobrindo a amizade no brincar
@@ -100,7 +100,7 @@ export const HeroSection = () => {
                                                 <br>
                                                 <strong>Terça-feira</strong>
                                                 <br>
-                                                <ul>
+                                                <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
                                                         <strong>Nome da vivência:</strong>
                                                          Explorando o corpo em movimento
@@ -125,7 +125,7 @@ export const HeroSection = () => {
                                                 <br>
                                                 <strong>Quarta-feira</strong>
                                                 <br>
-                                                <ul>
+                                                <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
                                                         <strong>Nome da vivência:</strong>
                                                          Brincando com cores e formas
@@ -150,7 +150,7 @@ export const HeroSection = () => {
                                                 <br>
                                                 <strong>Quinta-feira</strong>
                                                 <br>
-                                                <ul>
+                                                <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
                                                         <strong>Nome da vivência:</strong>
                                                          Contação de histórias e sons
@@ -175,7 +175,7 @@ export const HeroSection = () => {
                                                 <br>
                                                 <strong>Sexta-feira</strong>
                                                 <br>
-                                                <ul>
+                                                <ul style="color:#000000;font-family:Arial;font-size:12px">
                                                     <li>
                                                         <strong>Nome da vivência:</strong>
                                                          Explorando o espaço e a quantidade
