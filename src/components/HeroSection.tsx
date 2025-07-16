@@ -200,10 +200,9 @@ export const HeroSection = () => {
                                                 <br>
                                                 <br>
                                                 <hr>
-                                                <p style="font-family:Arial;color:#555">
+                                                <p style="font-family:Arial;color:#555;font-size:11px">
                                                     Documento criado pela 
-                                                    <b style="color:#3b82f6">Aulix</b>
-                                                    , a assistente de IA generativa amiga dos professores! 🧑
+                                                    <b style="color:#3b82f6">Aulix</b>, a assistente de IA generativa amiga dos professores! 🧑</b>
                                                 </p>
       `,
       googleDocs: "https://docs.google.com/document/d/1QkWqjXVp3KIrULb-bCVXDlAPXziFtNpnnHi_7JHobb0/edit?usp=sharing"
