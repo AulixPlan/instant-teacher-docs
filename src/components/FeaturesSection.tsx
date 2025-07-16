@@ -146,7 +146,6 @@ export const FeaturesSection = () => {
                   <li>Documentos desorganizados</li>
                   <li>Linguagem informal</li>
                   <li>Estresse e sobrecarga</li>
-                  <li> </li>
                 </ul>
               </div>
               <div className="text-center">
@@ -158,11 +157,10 @@ export const FeaturesSection = () => {
                   <li>Organização profissional</li>
                   <li>Linguagem pedagógica correta</li>
                   <li>Mais tempo para você</li>
-                  <li> </li>
                 </ul>
               </div>
             </div>
-            <h3 className="text-2xl font-bold text-center mb-8">
+            <h3 className="text-2xl font-bold text-center mt-16 mb-8">
               A Aulix faz o <span className="text-destructive">Plano</span>. Você vive o <span className="text-secondary">Propósito!</span>
             </h3>
           </div>
