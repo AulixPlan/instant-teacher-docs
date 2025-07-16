@@ -181,16 +181,16 @@ export const FAQSection = () => {
       <AccordionItem
         key={index}
         value={`item-${index}`}
-        className="bg-neutral-50 border border-neutral-200 rounded-xl shadow-sm transition-all duration-300 animate-scale-in"
+        className="bg-gradient-to-br from-indigo-50 to-white rounded-xl shadow-lg animate-scale-in"
         style={{ animationDelay: `${index * 0.1}s` }}
       >
-        <AccordionTrigger className="px-6 py-4 text-left hover:no-underline focus:outline-none focus:ring-2 focus:ring-primary-300">
-          <span className="font-medium text-neutral-900 tracking-tight">
+        <AccordionTrigger className="px-6 py-4 text-left hover:no-underline">
+          <span className="font-semibold text-indigo-900 pr-4">
             {faq.question}
           </span>
         </AccordionTrigger>
         <AccordionContent className="px-6 pb-4">
-          <p className="text-neutral-600 text-sm leading-relaxed">
+          <p className="text-indigo-800 text-sm leading-relaxed">
             {faq.answer}
           </p>
         </AccordionContent>
