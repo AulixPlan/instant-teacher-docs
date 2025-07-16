@@ -18,7 +18,6 @@ import {
   GraduationCap,
   Mail
 } from "lucide-react";
-import beforeAfter from "@/assets/before-after.jpg";
 
 export const FeaturesSection = () => {
   const features = [
@@ -98,11 +97,45 @@ export const FeaturesSection = () => {
             <h3 className="text-2xl font-bold text-center mb-8">
               Veja a diferença: <span className="text-destructive">Antes</span> vs <span className="text-secondary">Depois</span>
             </h3>
-            <img 
-              src={beforeAfter} 
-              alt="Comparação antes e depois - documentos manuais vs Aulix"
-              className="w-full h-auto rounded-lg shadow-soft"
-            />
+            <div className="grid md:grid-cols-2 gap-4 mb-8">
+              {/* Vídeo "Antes" */}
+              <div className="relative rounded-lg overflow-hidden shadow-soft">
+                <video 
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                  className="w-full h-auto object-cover"
+                  poster="/placeholder-before.jpg"
+                >
+                  <source src="/videos/antes-aulix.mp4" type="video/mp4" />
+                  <source src="/videos/antes-aulix.webm" type="video/webm" />
+                  Seu navegador não suporta vídeos HTML5.
+                </video>
+                <div className="absolute top-4 left-4 bg-destructive/90 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  ❌ Antes
+                </div>
+              </div>
+              
+              {/* Vídeo "Depois" */}
+              <div className="relative rounded-lg overflow-hidden shadow-soft">
+                <video 
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                  className="w-full h-auto object-cover"
+                  poster="/placeholder-depois.jpg"
+                >
+                  <source src="/videos/depois-aulix.mp4" type="video/mp4" />
+                  <source src="/videos/depois-aulix.webm" type="video/webm" />
+                  Seu navegador não suporta vídeos HTML5.
+                </video>
+                <div className="absolute top-4 left-4 bg-secondary/90 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  ✅ Depois
+                </div>
+              </div>
+            </div>
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="text-center">
                 <div className="inline-flex items-center gap-2 bg-destructive/10 text-destructive rounded-full px-4 py-2 mb-4">
