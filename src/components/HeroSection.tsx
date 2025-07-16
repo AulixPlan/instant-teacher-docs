@@ -207,8 +207,8 @@ export const HeroSection = () => {
       `,
       googleDocs: "https://docs.google.com/document/d/1QkWqjXVp3KIrULb-bCVXDlAPXziFtNpnnHi_7JHobb0/edit?usp=sharing"
     },
-    projetoPedagogico: {
-      title: "Projeto Pedagógico",
+    encaminhamento: {
+      title: "Encaminhamento",
       icon: Calendar,
       whatsapp: `📘 Projeto Pedagógico: Leitura para o 1º Ano — 30 alunos
 
@@ -498,9 +498,9 @@ Observação contínua da participação, curiosidade demonstrada e registros pr
                         <Calendar className="w-4 h-4" />
                         Projeto Pedagógico
                       </TabsTrigger>
-                      <TabsTrigger value="projetoPedagogico" className="flex items-center gap-2">
+                      <TabsTrigger value="encaminhamento" className="flex items-center gap-2">
                         <Target className="w-4 h-4" />
-                        Projeto Pedagógico
+                        Encaminhamento
                       </TabsTrigger>
                     </TabsList>
 
