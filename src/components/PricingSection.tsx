@@ -113,10 +113,6 @@ export const PricingSection = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
-                  <span>Suporte prioritário</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-5 h-5 text-secondary flex-shrink-0" />
                   <span>Atualizações constantes</span>
                 </li>
                 <li className="flex items-center gap-2">
@@ -213,6 +209,10 @@ export const PricingSection = () => {
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
                   <span>Economia e tranquilidade</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-5 h-5 text-secondary flex-shrink-0" />
+                  <span>Suporte prioritário</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-secondary flex-shrink-0" />
