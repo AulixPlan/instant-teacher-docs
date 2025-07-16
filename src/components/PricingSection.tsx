@@ -145,30 +145,21 @@ export const PricingSection = () => {
                     </DialogDescription>
                   </DialogHeader>
                   
-<div className="space-y-6">
-  {/* Observação importante */}
-  <div className="bg-primary-50 border-l-4 border-l-primary-400 p-4 rounded-r-lg shadow-sm">
-    <div className="flex items-start">
-      <AlertTriangle className="w-5 h-5 text-primary-600 mt-0.5 mr-3 flex-shrink-0" />
-      <div>
-        <p className="font-semibold text-primary-800 mb-2">*ATENÇÃO*</p>
-        <p className="text-primary-700 text-sm leading-relaxed">
-          Nas próximas etapas, preencha corretamente o <strong>telefone</strong> com o número do <strong>WhatsApp</strong>.
-          O acesso será liberado apenas para esse número.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  {/* Informações de liberação */}
-  <div className="bg-neutral-50 border border-neutral-200 rounded-lg p-4 shadow-sm">
-    <h3 className="font-semibold text-neutral-800 mb-2">⚡ Liberação do Acesso</h3>
-    <ul className="text-neutral-700 text-sm space-y-1 list-disc list-inside">
-      <li><strong>PIX ou Cartão de Crédito:</strong> acesso imediato</li>
-      <li><strong>Boleto:</strong> até 3 dias úteis após compensação</li>
-    </ul>
-  </div>
-</div>
+                  <div className="space-y-6">
+                    {/* Observação importante */}
+                    <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
+                      <div className="flex items-start">
+                        <AlertTriangle className="w-5 h-5 text-yellow-600 mt-0.5 mr-3 flex-shrink-0" />
+                        <div>
+                          <p className="font-semibold text-yellow-800 mb-2">*ATENÇÃO*</p>
+                          <p className="text-yellow-700 text-sm leading-relaxed">
+                            Em uma das próximas telas você deverá preencher corretamente seu número de telefone. 
+                            Esse número deve ser o número de WhatsApp que você irá acessar o sistema 
+                            (o acesso será liberado somente para esse número).
+                          </p>
+                        </div>
+                      </div>
+                    </div>
 
                     {/* Botão de ação */}
                     <div className="pt-4">
