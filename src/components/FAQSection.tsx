@@ -264,141 +264,162 @@ export const FAQSection = () => {
                     Falar com um Humano
                   </Button>
                 </DialogTrigger>
-                <DialogContent className="sm:max-w-[500px] max-h-[90vh] overflow-y-auto">
-                  <DialogHeader>
-                    <DialogTitle>Falar com um Humano</DialogTitle>
-                    <DialogDescription>
-                      Preencha o formulário abaixo e nossa equipe entrará em contato com você.
-                    </DialogDescription>
-                  </DialogHeader>
-                  
-                  <Form {...form}>
-                    <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
-                      <FormField
-                        control={form.control}
-                        name="nome"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Nome Completo *</FormLabel>
-                            <FormControl>
-                              <Input placeholder="Seu nome completo" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
+<DialogContent className="sm:max-w-[500px] max-h-[90vh] overflow-y-auto bg-gradient-card border-0 shadow-soft rounded-xl p-6 space-y-6">
+  <DialogHeader>
+    <DialogTitle className="text-foreground">Falar com um Humano</DialogTitle>
+    <DialogDescription className="text-muted-foreground">
+      Preencha o formulário abaixo e nossa equipe entrará em contato com você.
+    </DialogDescription>
+  </DialogHeader>
 
-                      <FormField
-                        control={form.control}
-                        name="email"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Email *</FormLabel>
-                            <FormControl>
-                              <Input type="email" placeholder="seu@email.com" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
+  <Form {...form}>
+    <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+      {/** Nome */}
+      <FormField
+        control={form.control}
+        name="nome"
+        render={({ field }) => (
+          <FormItem>
+            <FormLabel>Nome Completo *</FormLabel>
+            <FormControl>
+              <Input
+                placeholder="Seu nome completo"
+                {...field}
+                className="bg-background border border-muted rounded-md focus:ring-2 focus:ring-primary/30 shadow-inner"
+              />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        )}
+      />
 
-                      <FormField
-                        control={form.control}
-                        name="whatsapp"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>WhatsApp *</FormLabel>
-                            <FormControl>
-                              <Input placeholder="(11) 99999-9999" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
+      {/** Email */}
+      <FormField
+        control={form.control}
+        name="email"
+        render={({ field }) => (
+          <FormItem>
+            <FormLabel>Email *</FormLabel>
+            <FormControl>
+              <Input
+                type="email"
+                placeholder="seu@email.com"
+                {...field}
+                className="bg-background border border-muted rounded-md focus:ring-2 focus:ring-primary/30 shadow-inner"
+              />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        )}
+      />
 
-                      <FormField
-                        control={form.control}
-                        name="serie"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Série *</FormLabel>
-                            <Select onValueChange={field.onChange} defaultValue={field.value}>
-                              <FormControl>
-                                <SelectTrigger>
-                                  <SelectValue placeholder="Selecione a série" />
-                                </SelectTrigger>
-                              </FormControl>
-                              <SelectContent>
-                                <SelectItem value="educacao-infantil-i">Educação Infantil I</SelectItem>
-                                <SelectItem value="educacao-infantil-ii">Educação Infantil II</SelectItem>
-                                <SelectItem value="ensino-fundamental">Ensino Fundamental</SelectItem>
-                                <SelectItem value="ensino-medio">Ensino Médio</SelectItem>
-                              </SelectContent>
-                            </Select>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
+      {/** WhatsApp */}
+      <FormField
+        control={form.control}
+        name="whatsapp"
+        render={({ field }) => (
+          <FormItem>
+            <FormLabel>WhatsApp *</FormLabel>
+            <FormControl>
+              <Input
+                placeholder="(11) 99999-9999"
+                {...field}
+                className="bg-background border border-muted rounded-md focus:ring-2 focus:ring-primary/30 shadow-inner"
+              />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        )}
+      />
 
-                      <FormField
-                        control={form.control}
-                        name="assunto"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Assunto *</FormLabel>
-                            <Select onValueChange={field.onChange} defaultValue={field.value}>
-                              <FormControl>
-                                <SelectTrigger>
-                                  <SelectValue placeholder="Selecione o assunto" />
-                                </SelectTrigger>
-                              </FormControl>
-                              <SelectContent>
-                                <SelectItem value="duvida">Dúvida</SelectItem>
-                                <SelectItem value="informacao">Informação</SelectItem>
-                                <SelectItem value="suporte">Suporte</SelectItem>
-                                <SelectItem value="sugestao">Sugestão</SelectItem>
-                                <SelectItem value="elogio">Elogio</SelectItem>
-                                <SelectItem value="depoimento">Depoimento</SelectItem>
-                                <SelectItem value="reclamacao">Reclamação</SelectItem>
-                                <SelectItem value="parceria">Parceria</SelectItem>
-                                <SelectItem value="outros">Outros</SelectItem>
-                              </SelectContent>
-                            </Select>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
+      {/** Série */}
+      <FormField
+        control={form.control}
+        name="serie"
+        render={({ field }) => (
+          <FormItem>
+            <FormLabel>Série *</FormLabel>
+            <Select onValueChange={field.onChange} defaultValue={field.value}>
+              <FormControl>
+                <SelectTrigger className="bg-background border border-muted rounded-md focus:ring-2 focus:ring-primary/30 shadow-inner">
+                  <SelectValue placeholder="Selecione a série" />
+                </SelectTrigger>
+              </FormControl>
+              <SelectContent>
+                <SelectItem value="educacao-infantil-i">Educação Infantil I</SelectItem>
+                <SelectItem value="educacao-infantil-ii">Educação Infantil II</SelectItem>
+                <SelectItem value="ensino-fundamental">Ensino Fundamental</SelectItem>
+                <SelectItem value="ensino-medio">Ensino Médio</SelectItem>
+              </SelectContent>
+            </Select>
+            <FormMessage />
+          </FormItem>
+        )}
+      />
 
-                      <FormField
-                        control={form.control}
-                        name="mensagem"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Mensagem *</FormLabel>
-                            <FormControl>
-                              <Textarea 
-                                placeholder="Descreva sua dúvida ou mensagem..."
-                                className="min-h-[100px]"
-                                {...field} 
-                              />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
+      {/** Assunto */}
+      <FormField
+        control={form.control}
+        name="assunto"
+        render={({ field }) => (
+          <FormItem>
+            <FormLabel>Assunto *</FormLabel>
+            <Select onValueChange={field.onChange} defaultValue={field.value}>
+              <FormControl>
+                <SelectTrigger className="bg-background border border-muted rounded-md focus:ring-2 focus:ring-primary/30 shadow-inner">
+                  <SelectValue placeholder="Selecione o assunto" />
+                </SelectTrigger>
+              </FormControl>
+              <SelectContent>
+                <SelectItem value="duvida">Dúvida</SelectItem>
+                <SelectItem value="informacao">Informação</SelectItem>
+                <SelectItem value="suporte">Suporte</SelectItem>
+                <SelectItem value="sugestao">Sugestão</SelectItem>
+                <SelectItem value="elogio">Elogio</SelectItem>
+                <SelectItem value="depoimento">Depoimento</SelectItem>
+                <SelectItem value="reclamacao">Reclamação</SelectItem>
+                <SelectItem value="parceria">Parceria</SelectItem>
+                <SelectItem value="outros">Outros</SelectItem>
+              </SelectContent>
+            </Select>
+            <FormMessage />
+          </FormItem>
+        )}
+      />
 
-                      <div className="flex gap-3 pt-4">
-                        <Button
-                          type="submit"
-                          disabled={isSubmitting}
-                          className="flex-1 bg-primary hover:bg-primary/90"
-                        >
-                          {isSubmitting ? "Enviando..." : "Enviar Mensagem"}
-                        </Button>
-                      </div>
-                    </form>
-                  </Form>
-                </DialogContent>
+      {/** Mensagem */}
+      <FormField
+        control={form.control}
+        name="mensagem"
+        render={({ field }) => (
+          <FormItem>
+            <FormLabel>Mensagem *</FormLabel>
+            <FormControl>
+              <Textarea
+                placeholder="Descreva sua dúvida ou mensagem..."
+                className="min-h-[100px] bg-background border border-muted rounded-md focus:ring-2 focus:ring-primary/30 shadow-inner"
+                {...field}
+              />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        )}
+      />
+
+      {/** Botão */}
+      <div className="flex gap-3 pt-4">
+        <Button
+          type="submit"
+          disabled={isSubmitting}
+          className="flex-1 bg-primary hover:bg-primary/90 text-white shadow-md"
+        >
+          {isSubmitting ? "Enviando..." : "Enviar Mensagem"}
+        </Button>
+      </div>
+    </form>
+  </Form>
+</DialogContent>
+
               </Dialog>
             </div>
           </div>
