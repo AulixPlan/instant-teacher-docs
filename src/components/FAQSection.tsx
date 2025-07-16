@@ -346,7 +346,7 @@ export const FAQSection = () => {
                   <SelectValue placeholder="Selecione a série" />
                 </SelectTrigger>
               </FormControl>
-              <SelectContent>
+              <SelectContent className="bg-background text-foreground shadow-lg border border-muted">
                 <SelectItem value="educacao-infantil-i">Educação Infantil I</SelectItem>
                 <SelectItem value="educacao-infantil-ii">Educação Infantil II</SelectItem>
                 <SelectItem value="ensino-fundamental">Ensino Fundamental</SelectItem>
@@ -371,7 +371,7 @@ export const FAQSection = () => {
                   <SelectValue placeholder="Selecione o assunto" />
                 </SelectTrigger>
               </FormControl>
-              <SelectContent>
+              <SelectContent className="bg-background text-foreground shadow-lg border border-muted">
                 <SelectItem value="duvida">Dúvida</SelectItem>
                 <SelectItem value="informacao">Informação</SelectItem>
                 <SelectItem value="suporte">Suporte</SelectItem>
