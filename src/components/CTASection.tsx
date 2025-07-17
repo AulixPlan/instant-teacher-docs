@@ -64,17 +64,17 @@ export const CTASection = () => {
           </div>
 
           {/* Main CTA Button */}
-          <div className="mb-8">
-            <Button 
-              size="lg" 
-              variant="cta" 
-              onClick={handleWhatsAppClick}
-              className="text-xl px-12 py-6 h-auto bg-gradient-success hover:shadow-glow hover:scale-110 transition-all duration-300"
-            >
-              <MessageCircle className="w-6 h-6 mr-3" />
-              Quero meus documentos prontos com a Aulix
-            </Button>
-          </div>
+<div className="mb-8 px-4">
+  <Button 
+    size="lg" 
+    variant="cta" 
+    onClick={handleWhatsAppClick}
+    className="w-full text-base sm:text-xl px-6 sm:px-12 py-4 sm:py-6 h-auto bg-gradient-success hover:shadow-glow hover:scale-105 transition-all duration-300"
+  >
+    <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 mr-2 sm:mr-3" />
+    Quero meus documentos prontos com a Aulix
+  </Button>
+</div>
 
           {/* Contact Information */}
           <div className="text-center space-y-4">
