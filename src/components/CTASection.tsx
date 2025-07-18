@@ -55,7 +55,7 @@ export const CTASection = () => {
             </div>
             <div className="flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <Shield className="w-6 h-6 text-accent-green flex-shrink-0" />
-              <span className="font-medium">Cancele a qualquer tempo</span>
+              <span className="font-medium">Seu tempo, sua escolha</span>
             </div>
             <div className="flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <MessageCircle className="w-6 h-6 text-accent-pink flex-shrink-0" />
