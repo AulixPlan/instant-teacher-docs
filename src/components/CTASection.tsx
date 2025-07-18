@@ -64,7 +64,7 @@ export const CTASection = () => {
           </div>
 
           {/* Main CTA Button */}
-<div className="mb-8 px-4">
+<div className="mb-8 px-4 overflow-x-hidden">
   <Button 
     size="lg" 
     variant="cta" 
