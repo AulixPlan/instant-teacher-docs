@@ -207,7 +207,7 @@ export const CTASection = () => {
                     <p>A Aulix é uma agente de IA que oferece suporte a professores na criação de documentações pedagógicas personalizadas. O serviço inclui um teste gratuito durante um período de 24 horas e, posteriormente, a possibilidade de uma assinatura mensal ou anual para uso contínuo.</p>
                     
                     <h3 className="text-lg font-semibold mt-6 mb-3">2. Uso Responsável</h3>
-                    <p>O usuário se compromete a utilizar a plataforma de maneira ética, sem violar leis, direitos de terceiros ou os presentes termos.</p>
+                    <p>O usuário se compromete a utilizar a plataforma exclusivamente para os fins propostos, ou seja, a criação de documentações pedagógicas. É expressamente proibido o uso da Aulix para finalidades que não estejam relacionadas ao contexto educacional previsto. Qualquer uso indevido, incluindo, mas não se limitando a, tentativas de gerar conteúdos fora desse escopo, será considerado abuso e implicará na <b>suspensão imediata da assinatura, sem direito a reembolso</b>.</p>
                     
                     <h3 className="text-lg font-semibold mt-6 mb-3">3. Assinatura</h3>
                     <p>Após o teste gratuito, o usuário poderá contratar uma assinatura mensal no valor de R$29,99 ou anual no valor de R$299,90. A assinatura pode ser paga por cartão de crédito / débito, boleto ou Pix. No caso do pagamento por boleto a assinatura é liberada após a compensação do mesmo.</p>
