@@ -22,12 +22,12 @@ export const PricingSection = () => {
   };
 
   const handleMonthlySubscription = () => {
-    window.open("https://sandbox.asaas.com/c/paxpelj839y3s8xq", "_blank");
+    window.open("https://www.asaas.com/c/xatoswl2zip497kc", "_blank");
     setIsMonthlyModalOpen(false);
   };
 
   const handleAnnualSubscription = () => {
-    window.open("https://sandbox.asaas.com/c/7mq05ckrl33jjn6q", "_blank");
+    window.open("https://www.asaas.com/c/r0ee2ewgam7gy5fm", "_blank");
     setIsAnnualModalOpen(false);
   };
 
