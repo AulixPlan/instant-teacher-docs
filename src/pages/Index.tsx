@@ -5,6 +5,8 @@ import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { CTASection } from "@/components/CTASection";
 import { FAQSection } from "@/components/FAQSection";
+import { Footer } from "@/components/Footer";
+import { CookieConsent } from "@/components/CookieConsent";
 
 const Index = () => {
   return (
@@ -16,6 +18,8 @@ const Index = () => {
       <PricingSection />
       <FAQSection />
       <CTASection />
+      <Footer />
+      <CookieConsent />
     </div>
   );
 };
