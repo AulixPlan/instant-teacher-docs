@@ -161,7 +161,7 @@ export const Footer = () => {
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Solicitar acesso, correção ou exclusão de seus dados pessoais;</li>
                         <li>Revogar consentimentos a qualquer momento;</li>
-                        <li>Entrar em contato pelo WhatsApp: +55 (11) 97336-7370 para exercer seus direitos.</li>
+                        <li>Entrar em contato pelo email: contato@aulix.com.br para exercer seus direitos.</li>
                       </ul>
                       
                       <h3 className="text-lg font-semibold mt-6 mb-3">6. Cookies</h3>
@@ -174,7 +174,7 @@ export const Footer = () => {
                       <p>Esta política poderá ser atualizada sem aviso prévio. Recomendamos a revisão periódica.</p>
                       
                       <hr className="my-6" />
-                      <p className="text-center font-semibold">Última atualização: janeiro/2025</p>
+                      <p className="text-center font-semibold">Última atualização: julho/2025</p>
                     </div>
                   </DialogContent>
                 </Dialog>
