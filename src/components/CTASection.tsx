@@ -179,7 +179,7 @@ export const CTASection = () => {
                     <p>Utilizamos cookies para melhorar a experiência de navegação. Ao continuar usando o site, você concorda com seu uso. Você pode desativá-los nas configurações do seu navegador.</p>
                     
                     <h3 className="text-lg font-semibold mt-6 mb-3">7. Direitos Autorais</h3>
-                    <p>Todo o conteúdo e informações constantes neste site, são de propriedade da DEL FIOL TECH LTDA e não podem ser copiados, reproduzidos, publicados ou transferidos sem autorização expressa da DEL FIOL TECH LTDA, sob pena de ser o infrator responsabilizado civil e criminalmente, nos termos da legislação aplicável aos direitos autorais e de propriedade intelectual.</p>
+                    <p>Todo o conteúdo e informações constantes neste site, são de propriedade da <strong>Aulix</strong> e não podem ser copiados, reproduzidos, publicados ou transferidos sem autorização expressa da <strong>Aulix</strong>, sob pena de ser o infrator responsabilizado civil e criminalmente, nos termos da legislação aplicável aos direitos autorais e de propriedade intelectual.</p>
                     
                     <h3 className="text-lg font-semibold mt-6 mb-3">8. Alterações nesta Política</h3>
                     <p>Esta política poderá ser atualizada sem aviso prévio. Recomendamos a revisão periódica.</p>
