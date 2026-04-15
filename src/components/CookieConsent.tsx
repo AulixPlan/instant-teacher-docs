@@ -90,11 +90,11 @@ export const CookieConsent = () => {
                       <DialogTitle className="text-2xl font-bold">🔒 Política de Privacidade — Aulix Planejamento</DialogTitle>
                     </DialogHeader>
                     <div className="prose prose-sm max-w-none">
-                      <p>A <strong>Aulix</strong> é de propriedade da DEL FIOL TECH LTDA, inscrita no CNPJ sob nº 15.543.532/0001-42, inscrição estadual isenta, com sede à Estrada Municipal Teodor Condiev 970, Sala 502 - Jardim Marchissolo - CEP: 13171-105 - Sumaré - SP.</p>
+                      <p>A <strong>Aulix</strong> é de propriedade da 63.301.599 FLAVIO DEL FIOL COSTA, inscrita no CNPJ sob nº 63.301.599/0001-13, inscrição estadual isenta, com sede à R. Joaquim Távora, 1383 - CEP: 04015-003 - São Paulo - SP.</p>
                       
-                      <p>A DEL FIOL TECH LTDA adota o compromisso de respeitar a privacidade de seus usuários. Ao fornecer informações pessoais e ao acessar o nosso site e whatsapp, o Usuário automaticamente concorda com as regras estabelecidas no presente termo de Política de Privacidade, motivo pelo qual recomendamos a sua leitura antes de prosseguir na navegação ou na contratação de nossos serviços.</p>
+                      <p>A <strong>Aulix</strong> adota o compromisso de respeitar a privacidade de seus usuários. Ao fornecer informações pessoais e ao acessar o nosso site e whatsapp, o Usuário automaticamente concorda com as regras estabelecidas no presente termo de Política de Privacidade, motivo pelo qual recomendamos a sua leitura antes de prosseguir na navegação ou na contratação de nossos serviços.</p>
                       
-                      <p>A DEL FIOL TECH LTDA segue as orientações da LEI GERAL DE PROTEÇÃO DE DADOS (LGPD) – LEI Nº 13.709/18</p>
+                      <p>A <strong>Aulix</strong> segue as orientações da LEI GERAL DE PROTEÇÃO DE DADOS (LGPD) – LEI Nº 13.709/18</p>
                       
                       <p>Esta política tem como objetivo esclarecer como as suas informações são coletadas, usadas e protegidas ao utilizar os serviços da Aulix.</p>
                       
@@ -133,13 +133,13 @@ export const CookieConsent = () => {
                       <p>Utilizamos cookies para melhorar a experiência de navegação. Ao continuar usando o site, você concorda com seu uso. Você pode desativá-los nas configurações do seu navegador.</p>
                       
                       <h3 className="text-lg font-semibold mt-6 mb-3">7. Direitos Autorais</h3>
-                      <p>Todo o conteúdo e informações constantes neste site, são de propriedade da DEL FIOL TECH LTDA e não podem ser copiados, reproduzidos, publicados ou transferidos sem autorização expressa da DEL FIOL TECH LTDA, sob pena de ser o infrator responsabilizado civil e criminalmente, nos termos da legislação aplicável aos direitos autorais e de propriedade intelectual.</p>
+                      <p>Todo o conteúdo e informações constantes neste site, são de propriedade da <strong>Aulix</strong> e não podem ser copiados, reproduzidos, publicados ou transferidos sem autorização expressa da <strong>Aulix</strong>, sob pena de ser o infrator responsabilizado civil e criminalmente, nos termos da legislação aplicável aos direitos autorais e de propriedade intelectual.</p>
                       
                       <h3 className="text-lg font-semibold mt-6 mb-3">8. Alterações nesta Política</h3>
                       <p>Esta política poderá ser atualizada sem aviso prévio. Recomendamos a revisão periódica.</p>
                       
                       <hr className="my-6" />
-                      <p className="text-center font-semibold">Última atualização: julho/2025</p>
+                      <p className="text-center font-semibold">Última atualização: abril/2026</p>
                     </div>
                   </DialogContent>
                 </Dialog>
