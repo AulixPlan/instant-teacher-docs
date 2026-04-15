@@ -200,7 +200,7 @@ export const Footer = () => {
                       <p>O usuário se compromete a utilizar a plataforma exclusivamente para os fins propostos, ou seja, a criação de documentações pedagógicas. É expressamente proibido o uso da Aulix para finalidades que não estejam relacionadas ao contexto educacional previsto. Qualquer uso indevido, incluindo, mas não se limitando a, tentativas de gerar conteúdos fora desse escopo, será considerado abuso e implicará na <b>suspensão imediata da assinatura, sem direito a reembolso</b>.</p>
                       
                       <h3 className="text-lg font-semibold mt-6 mb-3">3. Assinatura</h3>
-                      <p>Após o teste gratuito, o usuário poderá contratar uma assinatura mensal no valor de R$29,99 ou anual no valor de R$299,90. A assinatura pode ser paga por cartão de crédito / débito, boleto ou Pix. No caso do pagamento por boleto a assinatura é liberada após a compensação do mesmo.</p>
+                      <p>Após o teste gratuito, o usuário poderá contratar uma assinatura mensal no valor de R$19,90 ou anual no valor de R$199,90. A assinatura pode ser paga por cartão de crédito / débito, boleto ou Pix. No caso do pagamento por boleto a assinatura é liberada após a compensação do mesmo.</p>
                       
                       <h3 className="text-lg font-semibold mt-6 mb-3">4. Cancelamento</h3>
                       <p>O usuário pode cancelar a assinatura a qualquer momento. O cancelamento não dá direito a reembolso proporcional do valor pago, salvo em caso de falha no serviço.</p>
