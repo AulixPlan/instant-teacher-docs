@@ -22,12 +22,12 @@ export const PricingSection = () => {
   };
 
   const handleMonthlySubscription = () => {
-    window.open("https://www.asaas.com/c/xatoswl2zip497kc", "_blank");
+    window.open("https://www.asaas.com/c/xbi7ik9vom1jx4cb", "_blank");
     setIsMonthlyModalOpen(false);
   };
 
   const handleAnnualSubscription = () => {
-    window.open("https://www.asaas.com/c/r0ee2ewgam7gy5fm", "_blank");
+    window.open("https://www.asaas.com/c/9day2m2et5ggp06b", "_blank");
     setIsAnnualModalOpen(false);
   };
 
@@ -97,7 +97,7 @@ export const PricingSection = () => {
             </div>
             <CardHeader className="text-center pb-4 pt-8">
               <CardTitle className="text-2xl">Plano Mensal</CardTitle>
-              <div className="text-4xl font-bold text-primary">R$ 29,90</div>
+              <div className="text-4xl font-bold text-primary">R$ 19,90</div>
               <div className="text-muted-foreground">/mês</div>
               <p className="text-muted-foreground">Para professores dedicados</p>
             </CardHeader>
@@ -190,10 +190,10 @@ export const PricingSection = () => {
                 <span className="text-accent-orange">Melhor Valor</span>
               </Badge>
               <CardTitle className="text-2xl">Plano Anual</CardTitle>
-              <div className="text-4xl font-bold text-primary">R$ 299,90</div>
+              <div className="text-4xl font-bold text-primary">R$ 199,90</div>
               <div className="text-muted-foreground">/ano</div>
               <div className="text-sm text-secondary font-medium">
-                <span className="text-accent-green">Economize R$ 58,90 no ano!</span>
+                <span className="text-accent-green">Economize R$ 38,90 no ano!</span>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -236,7 +236,7 @@ export const PricingSection = () => {
                       🎉 Excelente Escolha!
                     </DialogTitle>
                     <DialogDescription className="text-center text-lg">
-                      Parabéns por escolher o Plano Anual da Aulix! Você economizou R$ 58,90!
+                      Parabéns por escolher o Plano Anual da Aulix! Você economizou R$ 38,90!
                     </DialogDescription>
                   </DialogHeader>
                   
